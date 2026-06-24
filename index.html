@@ -38,7 +38,7 @@
             --f-serif:'Noto Serif JP','Hiragino Mincho ProN','YuMincho',serif;
             --f-sans:'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif;
         }
-        html { scroll-behavior: smooth; }
+        html { scroll-behavior: smooth; overflow-x: hidden; }
         body { font-family: var(--f-sans); color: var(--text-body); background: var(--bg-canvas); line-height: 1.75; font-feature-settings: "palt" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; overflow-x: hidden; }
         a { text-decoration: none; color: inherit; }
         img { display: block; max-width: 100%; }
@@ -69,7 +69,7 @@
         .sec-head.center { text-align: center; }
         @media (max-width: 768px) { .sec-head { margin-bottom: 48px; } }
 
-        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 15px; font-weight: 500; padding: 14px 28px; border-radius: var(--r-md); border: 1px solid transparent; cursor: pointer; transition: all .25s cubic-bezier(.4,0,.2,1); white-space: nowrap; line-height: 1.4; }
+        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 15px; font-weight: 500; padding: 14px 28px; border-radius: var(--r-md); border: 1px solid transparent; cursor: pointer; transition: all .25s cubic-bezier(.4,0,.2,1); line-height: 1.4; max-width: 100%; text-align: center; }
         .btn-primary { background: var(--green); color: #fff; box-shadow: 0 1px 2px rgba(4,120,87,.18); }
         .btn-primary:hover { background: var(--green-deep); transform: translateY(-1px); box-shadow: 0 8px 22px rgba(4,120,87,.24); }
         .btn-ghost { background: transparent; color: var(--text-muted); border-color: var(--border-default); }
@@ -104,7 +104,7 @@
         .hero-pill-dot { width: 6px; height: 6px; background: var(--green); border-radius: 50%; position: relative; }
         .hero-pill-dot::before { content: ''; position: absolute; inset: -4px; background: var(--green); border-radius: 50%; opacity: .3; animation: ping 2s cubic-bezier(0,0,.2,1) infinite; }
         @keyframes ping { 75%,100% { transform: scale(2.4); opacity: 0; } }
-        .hero-title { font-family: var(--f-serif); font-weight: 500; font-size: clamp(30px, 5.6vw, 60px); line-height: 1.28; letter-spacing: -.02em; color: var(--text-primary); margin-bottom: 28px; }
+        .hero-title { font-family: var(--f-serif); font-weight: 500; font-size: clamp(26px, 5.6vw, 60px); line-height: 1.28; letter-spacing: -.02em; color: var(--text-primary); margin-bottom: 28px; }
         .hero-title .accent { background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
         .hero-sub { font-weight: 300; font-size: clamp(15px, 1.6vw, 19px); line-height: 1.85; color: var(--text-muted); max-width: 660px; margin: 0 auto 40px; }
         .hero-sub strong { color: var(--text-body); font-weight: 600; }
@@ -116,7 +116,15 @@
         .hero-stat-num { display: block; font-family: var(--f-serif); font-weight: 500; font-size: clamp(26px, 3.4vw, 38px); line-height: 1; color: var(--text-primary); margin-bottom: 8px; font-feature-settings: "tnum" 1; }
         .hero-stat-num .unit { color: var(--gold); font-size: .6em; }
         .hero-stat-lbl { font-size: 11px; color: var(--text-faint); letter-spacing: .06em; }
-        @media (max-width: 640px) { .hero { padding: 110px 20px 72px; } .hero-stats { padding-top: 32px; margin-top: 48px; } .hero-stat { padding: 0 8px; } .hero-stat-lbl { font-size: 10px; letter-spacing: .02em; } }
+        @media (max-width: 640px) {
+            .hero { padding: 110px 20px 72px; }
+            .hero-stats { padding-top: 32px; margin-top: 48px; }
+            .hero-stat { padding: 0 8px; }
+            .hero-stat-lbl { font-size: 10px; letter-spacing: .02em; }
+            .hero-ctas { flex-direction: column; align-items: stretch; width: 100%; }
+            .hero-ctas .btn { width: 100%; }
+            .btn-lg { font-size: 15px; padding: 15px 20px; }
+        }
 
         /* PROBLEM */
         .problem { background: var(--bg-deep); color: #fff; position: relative; overflow: hidden; }
