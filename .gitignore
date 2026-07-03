@@ -1,0 +1,7 @@
+# 作業用・検証用ファイル（公開リポジトリに含めない）
+screenshots/
+originals/
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
