@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#FAF7F2">
     <title>個人事業主・経営者のためのAI・DXコンサル｜根津 仁志</title>
-    <meta name="description" content="個人事業主・経営者のための、AIによる業務改善。記事・資料・見積・問い合わせ対応など毎日の手作業を、AIで最大1/10に。学んで終わりにせず、集客の仕組み化まで一気通貫で伴走します。初回相談無料。">
+    <meta name="description" content="個人事業主・経営者のための、AIによる業務改善。AI研修・AI導入支援・AI内製化支援を、できるまで隣で一緒に作る“超伴走型”で。毎日の手作業をAIで最大1/10に。初回相談無料。">
     <link rel="canonical" href="https://sasukewebjob-ai.github.io/ai-dx-consulting/">
 
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231A1A1A'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='38' fill='%23D4B785' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://sasukewebjob-ai.github.io/ai-dx-consulting/">
     <meta property="og:title" content="個人事業主・経営者のためのAI・DXコンサル｜根津 仁志">
-    <meta property="og:description" content="毎日の手作業を、AIで最大1/10に。「学んで終わり」にせず、集客の仕組み化まで一気通貫で伴走します。">
+    <meta property="og:description" content="毎日の手作業を、AIで最大1/10に。AI研修・導入支援・内製化支援を、できるまで隣で一緒に作る“超伴走型”で。">
     <meta property="og:locale" content="ja_JP">
     <meta property="og:site_name" content="根津 仁志｜AI・DXコンサル">
     <meta name="twitter:card" content="summary_large_image">
@@ -248,6 +248,28 @@
         .srv-benefit { margin-top: auto; display: flex; align-items: flex-start; gap: 10px; background: var(--green-bg); border-radius: var(--r-sm); padding: 12px 14px; font-size: 13px; color: var(--green-deep); line-height: 1.6; font-weight: 500; }
         .srv-benefit::before { content: '→'; font-weight: 700; flex-shrink: 0; }
 
+        /* 3段階ラダー＋法人向け3本柱 */
+        .ladder { display: flex; align-items: stretch; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+        .ladder-step { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; background: var(--bg-canvas); border: 1px solid var(--border-subtle); border-radius: var(--r-md); padding: 14px 24px; min-width: 170px; text-align: center; }
+        .ladder-step b { font-family: var(--f-serif); font-size: 15px; color: var(--text-primary); font-weight: 500; }
+        .ladder-step span { font-size: 11px; color: var(--text-muted); letter-spacing: .02em; }
+        .ladder-arr { display: flex; align-items: center; color: var(--gold); font-size: 16px; }
+        .ladder-note { text-align: center; font-size: 12px; color: var(--text-faint); margin-bottom: 48px; }
+        .pillar-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 72px; }
+        .pillar-card { background: var(--bg-canvas); border: 1px solid var(--gold-soft); border-radius: var(--r-lg); padding: 36px 30px; display: flex; flex-direction: column; box-shadow: var(--sh-hairline); transition: all .3s ease; }
+        .pillar-card:hover { transform: translateY(-3px); box-shadow: var(--sh-halo-gold); }
+        .pillar-tag { font-size: 11px; font-weight: 600; letter-spacing: .14em; color: var(--gold); text-transform: uppercase; margin-bottom: 12px; }
+        .pillar-card h3 { font-family: var(--f-serif); font-weight: 500; font-size: 20px; color: var(--text-primary); margin-bottom: 6px; }
+        .pillar-sub { font-size: 12.5px; color: var(--gold-deep); font-weight: 600; margin-bottom: 14px; }
+        .pillar-can { font-size: 14px; color: var(--text-body); line-height: 1.75; margin-bottom: 4px; }
+        .pillar-list { list-style: none; display: flex; flex-direction: column; gap: 9px; margin: 0 0 20px; padding: 16px 0 0; border-top: 1px dashed var(--border-default); }
+        .pillar-list li { position: relative; padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.65; }
+        .pillar-list li::before { content: '✓'; position: absolute; left: 0; color: var(--gold-deep); font-weight: 700; }
+        .pillar-outcome { margin-top: auto; background: var(--green-bg); border-radius: var(--r-sm); padding: 14px 16px; font-size: 13px; color: var(--green-deep); font-weight: 500; line-height: 1.65; }
+        .srv-subhead { text-align: center; font-family: var(--f-serif); font-size: clamp(18px, 2.4vw, 24px); font-weight: 500; color: var(--text-primary); margin-bottom: 8px; }
+        .srv-subnote { text-align: center; font-size: 13px; color: var(--text-muted); margin-bottom: 36px; }
+        @media (max-width: 900px) { .pillar-grid { grid-template-columns: 1fr; } .ladder-arr { transform: rotate(90deg); flex-basis: 100%; justify-content: center; } .ladder-step { width: 100%; } }
+
         /* PORTFOLIO */
         .portfolio { background: var(--bg-deep); color: #fff; position: relative; overflow: hidden; }
         .portfolio::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 100%, rgba(184,137,59,.08), transparent 60%); pointer-events: none; }
@@ -412,7 +434,7 @@
         </h1>
         <p class="hero-sub">
             記事も、資料も、見積も、問い合わせ対応も。その“手作業”を、AIで<strong>最大1/10</strong>に。<br class="br-pc">
-            業務の効率化から集客の仕組み化まで、<strong>現場が回り出すまで伴走</strong>します。
+            研修・導入支援から内製化まで、<strong>できるまで隣で一緒に作る“超伴走型”</strong>で支援します。
         </p>
         <div class="hero-ctas">
             <a href="https://lin.ee/Y7OfHPe" target="_blank" rel="noopener" class="btn btn-primary btn-lg">まずは「うちの場合」を聞いてみる（無料・LINE）<span class="btn-arrow">→</span></a>
@@ -445,8 +467,8 @@
             <div class="p-item fade"><div class="p-icon"><svg class="ic"><use href="#i-megaphone"/></svg></div><div class="p-text">ブログやSNSが続かず、<b>集客が止まっている</b></div></div>
         </div>
         <div class="problem-bridge fade">
-            <p>AIは「知っている」だけなら、ただのコストです。</p>
-            <small>必要なのは、<b>自社の業務に合わせて“組み込み”、現場が回るまで“定着”させること</b>。<br>そこまでやり切るのが、私の役割です。</small>
+            <p>多くの企業が困っているのは、AIを「知らない」ことではなく、<br class="br-pc">社員が「実装できない」ことです。</p>
+            <small>だから、<b>できるまで隣で一緒に作ります</b>。画面を共有して手を動かし、現場が回り出すまで離れない。<br>それが私の“超伴走型”支援です。</small>
         </div>
     </div>
 </section>
@@ -457,7 +479,7 @@
         <div class="sec-head center fade">
             <span class="eyebrow center">Solution</span>
             <h2 class="h-1">教えて終わり、にしません。</h2>
-            <p class="lead center">AI活用・業務自動化・SEO集客・ツール開発まで、<strong>窓口ひとつで一気通貫</strong>。だから「相談→実装→定着」がスムーズです。</p>
+            <p class="lead center">AI研修・導入支援・内製化支援からツール開発まで、<strong>窓口ひとつで一気通貫</strong>。だから「相談→実装→定着」がスムーズです。</p>
         </div>
         <div class="sol-concept fade">
             <div class="sol-concept-inner">
@@ -472,7 +494,7 @@
         </div>
         <div class="sol-points">
             <div class="sol-point fade"><div class="sol-point-icon"><svg class="ic"><use href="#i-wrench"/></svg></div><h4>アドバイスで終わらない</h4><p>30件以上のアプリ・自動化システムを開発。助言だけでなく、実際に動く仕組みまで作って納めます。</p></div>
-            <div class="sol-point fade"><div class="sol-point-icon"><svg class="ic"><use href="#i-link"/></svg></div><h4>業務改善と集客が繋がる</h4><p>効率化とSEO・発信の両方が専門。「手間を減らす」と「売上をつくる」を、ひと続きで設計できます。</p></div>
+            <div class="sol-point fade"><div class="sol-point-icon"><svg class="ic"><use href="#i-users"/></svg></div><h4>隣で一緒に作る“超伴走型”</h4><p>画面を共有して一緒に手を動かし、毎週の面談でつまずきをその場で解消。教えて終わりにせず、現場ができるまで離れません。</p></div>
             <div class="sol-point fade"><div class="sol-point-icon"><svg class="ic"><use href="#i-lifebuoy"/></svg></div><h4>現場とお金がわかる</h4><p>経理・会計事務所の実務経験あり。専門用語に逃げず、現場の人がそのまま使える形に落とし込みます。</p></div>
         </div>
     </div>
@@ -515,7 +537,7 @@
             <p class="num-sub">すべて、私が実際に構築・運用してきたシステムをもとにした試算です</p>
             <div class="num-grid">
                 <div class="num-card"><div class="num-task"><svg class="ic ic-sm"><use href="#i-mic"/></svg>議事録の作成</div><div class="num-ba"><span class="num-before">2時間</span><span class="num-arr">→</span><span class="num-after">15分</span><span class="num-unit">/回</span></div><span class="num-rate">約 90% 減</span><div class="num-src">録音→文字起こし→AI要約を自動化（確認・修正のみ人が行います）。<br><b>文字起こし＋AI要約の仕組み</b>で構築</div></div>
-                <div class="num-card"><div class="num-task"><svg class="ic ic-sm"><use href="#i-edit"/></svg>SEO記事・ブログ制作</div><div class="num-ba"><span class="num-before">8時間</span><span class="num-arr">→</span><span class="num-after">2.5時間</span></div><span class="num-rate">約 1/3 に</span><div class="num-src">構成〜画像〜入稿を半自動化。<br><b>SEOブログ自動執筆システム</b>で実装</div></div>
+                <div class="num-card"><div class="num-task"><svg class="ic ic-sm"><use href="#i-edit"/></svg>記事・ブログ制作</div><div class="num-ba"><span class="num-before">8時間</span><span class="num-arr">→</span><span class="num-after">2.5時間</span></div><span class="num-rate">約 1/3 に</span><div class="num-src">構成〜画像〜入稿を半自動化。<br><b>ブログ自動執筆システム</b>で実装</div></div>
                 <div class="num-card"><div class="num-task"><svg class="ic ic-sm"><use href="#i-barchart"/></svg>提案・社内資料の作成</div><div class="num-ba"><span class="num-before">6時間</span><span class="num-arr">→</span><span class="num-after">1.5時間</span></div><span class="num-rate">約 1/4 に</span><div class="num-src">骨子から清書まで生成＋自動整形。<br><b>スライド自動生成システム</b>で実装</div></div>
                 <div class="num-card"><div class="num-task"><svg class="ic ic-sm"><use href="#i-receipt"/></svg>見積書・定型帳票</div><div class="num-ba"><span class="num-before">30分</span><span class="num-arr">→</span><span class="num-after">3分</span><span class="num-unit">/件</span></div><span class="num-rate">約 1/10 に</span><div class="num-src">入力からPDF発行まで自動。<br><b>見積書・帳票生成ツール</b>で実装</div></div>
                 <div class="num-card"><div class="num-task"><svg class="ic ic-sm"><use href="#i-inbox"/></svg>申込・問い合わせ対応</div><div class="num-ba"><span class="num-before">15分/件</span><span class="num-arr">→</span><span class="num-after">ほぼ0</span></div><span class="num-rate">受付〜返信を自動化</span><div class="num-src">受付・自動返信・名簿集計を一括。<br><b>Web申込システム</b>で実装</div></div>
@@ -587,6 +609,14 @@
                 </div>
             </div>
             <div class="ind-card fade">
+                <div class="ind-top"><div class="ind-ico"><svg class="ic"><use href="#i-clipboard"/></svg></div><div class="ind-name">自治体・公的機関</div></div>
+                <div class="ind-ba">
+                    <div class="ind-before"><span class="lab">Before</span><span>議事録・資料作成・書類の振り分けが、すべて手作業</span></div>
+                    <div class="ind-arr">↓</div>
+                    <div class="ind-after"><span class="lab">After</span><span>いまあるGoogle Workspaceだけで自動化。<b>追加ソフト不要</b></span></div>
+                </div>
+            </div>
+            <div class="ind-card fade">
                 <div class="ind-top"><div class="ind-ico"><svg class="ic"><use href="#i-users"/></svg></div><div class="ind-name">その他・共通</div></div>
                 <div class="ind-ba">
                     <div class="ind-before"><span class="lab">Before</span><span>「これ、毎回やってる手作業だな」という業務がある</span></div>
@@ -604,9 +634,63 @@
     <div class="container">
         <div class="sec-head center fade">
             <span class="eyebrow center">Services</span>
-            <h2 class="h-1">あなたの「面倒」を、<br class="br-pc">どこからでも引き受けます。</h2>
-            <p class="lead center">「何ができるか」だけでなく、<strong>その先にどんな成果があるか</strong>まで一緒に設計します。</p>
+            <h2 class="h-1">教えて終わらせない、<br class="br-pc">3段階の支援。</h2>
+            <p class="lead center">AI研修 → 導入支援 → 内製化支援。<strong>どこからでも始められて、最後は「私がいなくても回る」状態</strong>がゴールです。</p>
         </div>
+
+        <div class="ladder fade">
+            <div class="ladder-step"><b>① AI研修</b><span>“使える社員”を作る</span></div>
+            <div class="ladder-arr">→</div>
+            <div class="ladder-step"><b>② AI導入支援</b><span>業務に組み込む</span></div>
+            <div class="ladder-arr">→</div>
+            <div class="ladder-step"><b>③ AI内製化支援</b><span>社内だけで回る状態に</span></div>
+        </div>
+        <p class="ladder-note fade">※ どの段階からのご依頼も可能です。研修だけ・導入支援だけでも歓迎します。</p>
+
+        <div class="pillar-grid">
+            <div class="pillar-card fade">
+                <div class="pillar-tag">Step 1</div>
+                <h3>AI研修</h3>
+                <div class="pillar-sub">「明日から使える」実務持ち込み型</div>
+                <p class="pillar-can">社員が「AIを知っている」から「毎日の業務で使う」に変わる研修。ChatGPT・Gemini・Claude・Google Workspaceを、自社の実際の業務で練習します。</p>
+                <ul class="pillar-list">
+                    <li>事前ヒアリングで、内容を自社の業務に合わせてカスタム</li>
+                    <li>受講者が実業務を持ち込み、その場でAIに置き換えるワーク中心</li>
+                    <li>プロンプト設計の型・議事録・資料作成・スプレッドシート×AIなど実務直結</li>
+                    <li>研修で作ったプロンプト集は、そのまま社内資産として納品</li>
+                </ul>
+                <div class="pillar-outcome">研修翌日から資料・議事録・メールの時間が減り、「うちの業務で使えるプロンプト集」が手元に残ります</div>
+            </div>
+            <div class="pillar-card fade">
+                <div class="pillar-tag">Step 2</div>
+                <h3>AI導入支援</h3>
+                <div class="pillar-sub">「契約したのに使えていない」を解消</div>
+                <p class="pillar-can">いまある環境（Google Workspace等）を最大限活かし、追加コスト最小でAIを業務に組み込みます。ツール選びから定着まで一気通貫。</p>
+                <ul class="pillar-list">
+                    <li>業務の棚卸しと、AI化の優先順位・ロードマップ作成</li>
+                    <li>ChatGPT／Gemini／Claudeの選定を、コスト・セキュリティ込みで設計</li>
+                    <li>部署で共有できるプロンプト集・Gem・GPTsを構築</li>
+                    <li>GASやClaude Codeで自動化を構築し、週次の面談で定着まで伴走</li>
+                </ul>
+                <div class="pillar-outcome">「契約したのに見ているだけ」のAIが毎日使われる道具に変わり、定型業務のまとまった時間が戻ります</div>
+            </div>
+            <div class="pillar-card fade">
+                <div class="pillar-tag">Step 3</div>
+                <h3>AI内製化支援</h3>
+                <div class="pillar-sub">「私が要らなくなる」までの伴走</div>
+                <p class="pillar-can">AI活用を外注し続けない会社へ。社内にAI推進役を育て、新しい業務課題を<strong>社内だけでAI化できる状態</strong>をゴールにします。</p>
+                <ul class="pillar-list">
+                    <li>社内AIリーダー1〜3名に週次の個別伴走（画面共有で一緒に作る）</li>
+                    <li>GAS・Claude Codeの業務ツールを、社員自身が作れるまで指導</li>
+                    <li>プロンプト集・活用事例集を「社内の教科書」として整備</li>
+                    <li>社内研修を内製化。初回は共同開催、以降は社内で自走</li>
+                </ul>
+                <div class="pillar-outcome">外注費が減っていく構造に。担当が変わっても、仕組みと教科書が社内に残り続けます</div>
+            </div>
+        </div>
+
+        <p class="srv-subhead fade">3つの支援を支える、現場の武器</p>
+        <p class="srv-subnote fade">コンサルだけでは終わらせない。必要なものは、その場で作ります。</p>
         <div class="srv-grid">
             <div class="srv-card fade">
                 <div class="srv-icon"><svg class="ic"><use href="#i-settings"/></svg></div>
@@ -615,28 +699,10 @@
                 <div class="srv-benefit">毎月のまとまった作業時間が消え、その分を売上を生む仕事に回せます</div>
             </div>
             <div class="srv-card fade">
-                <div class="srv-icon"><svg class="ic"><use href="#i-cpu"/></svg></div>
-                <h3>AI導入・活用支援</h3>
-                <p>ChatGPT・Claude・Geminiなど、自社の業務に合うAIの選定から使い方の設計までサポート。「契約したのに使えていない」を解消します。</p>
-                <div class="srv-benefit">“見ているだけのAI”が、毎日いちばん頼る相棒に変わります</div>
-            </div>
-            <div class="srv-card fade">
                 <div class="srv-icon"><svg class="ic"><use href="#i-code"/></svg></div>
                 <h3>AIツール・システム開発</h3>
                 <p>既製ツールで足りない部分は、自社専用のツールを開発。Claude Codeを活用し、申込フォーム・自動通知・社内アプリなどを素早く形にします。</p>
                 <div class="srv-benefit">「うちだけの面倒な作業」にピンポイントで効く仕組みが手に入ります</div>
-            </div>
-            <div class="srv-card fade">
-                <div class="srv-icon"><svg class="ic"><use href="#i-graduation"/></svg></div>
-                <h3>AI研修・社内浸透</h3>
-                <p>経営者向け・社員向けに、現場で本当に使える実践研修を実施。300名以上を指導した講師経験をもとに、「明日から使える」レベルまで引き上げます。</p>
-                <div class="srv-benefit">「AIに詳しいあの人」がいなくても、チーム全員が当たり前に使える状態へ</div>
-            </div>
-            <div class="srv-card fade">
-                <div class="srv-icon"><svg class="ic"><use href="#i-trending"/></svg></div>
-                <h3>SEO・集客の仕組み化</h3>
-                <p>SEOディレクターとして、検索で見つけてもらう記事・オウンドメディアを設計。AIで制作を効率化しつつ、検索で評価されやすい記事の品質を保ちます。</p>
-                <div class="srv-benefit">広告に頼りきらずに問い合わせを生む、“集客資産”を検索から育てます</div>
             </div>
             <div class="srv-card fade">
                 <div class="srv-icon"><svg class="ic"><use href="#i-megaphone"/></svg></div>
@@ -666,7 +732,7 @@
         <div class="pf-flagships">
             <div class="pf-flag fade"><div class="pf-flag-tag">業務自動化</div><div class="pf-flag-name">LINEタスク管理システム</div><div class="pf-flag-desc">メンション通知・期限リマインド・一覧の絞り込みを自動化。チームの「言った言わない」と催促の手間をなくし、本番稼働中。</div></div>
             <div class="pf-flag fade"><div class="pf-flag-tag">Web申込・集計</div><div class="pf-flag-name">イベントWeb申込システム</div><div class="pf-flag-desc">申込フォーム → 自動返信メール → 名簿・参加費の集計までを一気通貫。受付業務を丸ごと自動化し、実イベントで本番運用。</div></div>
-            <div class="pf-flag fade"><div class="pf-flag-tag">コンテンツ自動化</div><div class="pf-flag-name">SEOブログ自動執筆システム</div><div class="pf-flag-desc">キーワードから記事生成・画像・入稿までを自動化。SEO設計の知見を組み込み、集客記事の量産を現実的なコストで実現。</div></div>
+            <div class="pf-flag fade"><div class="pf-flag-tag">帳票自動化</div><div class="pf-flag-name">見積書自動作成ツール</div><div class="pf-flag-desc">手書き・PDFの見積を707品目の辞書と照合し、Excel見積書を自動生成。建設会社の社内ツールとして稼働中。転記ミスと単価のばらつきをなくした。</div></div>
         </div>
         <div class="mid-cta fade">
             <a href="https://sasukewebjob-ai.github.io/portfolio/" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">30件の制作実績をすべて見る<span class="btn-arrow">→</span></a>
@@ -759,6 +825,18 @@
                 <div class="faq-q"><div class="faq-q-inner"><span class="faq-mark">Q</span>情報漏洩やセキュリティが心配です。</div><span class="faq-arrow">▼</span></div>
                 <div class="faq-a"><span class="faq-mark a">A</span><div>ご懸念に合わせた設計が可能です。社外にデータを出さない「社内専用AI（ローカルLLM）」の構築実績もあり、安全性とランニングコストの両面からご提案できます。</div></div>
             </div>
+            <div class="faq-item fade">
+                <div class="faq-q"><div class="faq-q-inner"><span class="faq-mark">Q</span>研修だけ、導入支援だけの依頼もできますか？</div><span class="faq-arrow">▼</span></div>
+                <div class="faq-a"><span class="faq-mark a">A</span><div>もちろん可能です。3段階の支援はどこから始めても構いません。単発の研修のみのご依頼も歓迎ですし、その後の契約を無理にお勧めすることもありません。</div></div>
+            </div>
+            <div class="faq-item fade">
+                <div class="faq-q"><div class="faq-q-inner"><span class="faq-mark">Q</span>社員がITに弱く、使ってくれるか不安です。</div><span class="faq-arrow">▼</span></div>
+                <div class="faq-a"><span class="faq-mark a">A</span><div>むしろそういう現場が得意です。画面を共有して一緒に手を動かすところから始め、ご自身の実際の業務が楽になる体験を先にしてもらいます。これまでも、AIに触れたことのない非エンジニアの方を「自分でツールを作れる」レベルまで育ててきました。</div></div>
+            </div>
+            <div class="faq-item fade">
+                <div class="faq-q"><div class="faq-q-inner"><span class="faq-mark">Q</span>オンラインでも対応できますか？地方でも大丈夫？</div><span class="faq-arrow">▼</span></div>
+                <div class="faq-a"><span class="faq-mark a">A</span><div>全国オンラインで対応しています。週次のオンライン面談で成果を出してきた形が基本ですので、場所は問いません。対面をご希望の場合はご相談ください。</div></div>
+            </div>
         </div>
     </div>
 </section>
@@ -778,7 +856,7 @@
 <section class="final-cta">
     <div class="final-cta-inner fade">
         <h2>その作業を、<br class="br-pc">来月も手でやりますか？</h2>
-        <p>業務を“速く”、集客を“仕組み”に。<br class="br-pc">まずは、あなたの会社の“面倒”を一つ、聞かせてください。</p>
+        <p>業務を“速く”、AIを“社内の力”に。<br class="br-pc">まずは、あなたの会社の“面倒”を一つ、聞かせてください。</p>
         <a href="https://lin.ee/Y7OfHPe" target="_blank" rel="noopener" class="btn btn-final">無料で相談する（LINE）<span class="btn-arrow">→</span></a>
         <p class="final-cta-note">※ 相談は無料です。しつこい営業は一切しません。</p>
     </div>

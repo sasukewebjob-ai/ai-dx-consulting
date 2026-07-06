@@ -1,6 +1,9 @@
 # 作業用・検証用ファイル（公開リポジトリに含めない）
 screenshots/
 originals/
+# 面談記録由来の素材・設計メモ（実名を含むため絶対に公開しない）
+LP強化素材_Obsidian掘り起こし.md
+toB化サービス設計案.md
 *.bak
 *.tmp
 .DS_Store
