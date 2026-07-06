@@ -45,7 +45,7 @@
 
         /* 日本語の改行品質（泣き別れ・寡婦行の抑制） */
         .hero-title, .h-1, .sol-concept h3, .whynow-h, .final-cta h2, .peak-cta-title { text-wrap: balance; }
-        .hero-sub, .lead, .p-text, .srv-card p, .srv-benefit, .num-src, .num-sum p, .whynow-p, .faq-q-inner, .faq-a div, .final-cta p, .flow-desc, .mid-cta-note, .hero-cta-note { text-wrap: pretty; }
+        .hero-sub, .lead, .p-text, .srv-card p, .srv-benefit, .num-src, .num-sum p, .whynow-p, .faq-q-inner, .faq-a div, .final-cta p, .flow-desc, .mid-cta-note, .hero-cta-note, .pillar-can, .pillar-list li, .pillar-outcome, .ladder-note { text-wrap: pretty; }
         /* PC専用の改行：スマホでは無効化して自動折返しに委ねる */
         .br-pc { display: inline; }
         @media (max-width: 600px) { .br-pc { display: none; } }
@@ -268,7 +268,16 @@
         .pillar-outcome { margin-top: auto; background: var(--green-bg); border-radius: var(--r-sm); padding: 14px 16px; font-size: 13px; color: var(--green-deep); font-weight: 500; line-height: 1.65; }
         .srv-subhead { text-align: center; font-family: var(--f-serif); font-size: clamp(18px, 2.4vw, 24px); font-weight: 500; color: var(--text-primary); margin-bottom: 8px; }
         .srv-subnote { text-align: center; font-size: 13px; color: var(--text-muted); margin-bottom: 36px; }
-        @media (max-width: 900px) { .pillar-grid { grid-template-columns: 1fr; } .ladder-arr { transform: rotate(90deg); flex-basis: 100%; justify-content: center; } .ladder-step { width: 100%; } }
+        @media (max-width: 900px) { .pillar-grid { grid-template-columns: 1fr; } .ladder-arr { transform: rotate(90deg); flex-basis: 100%; justify-content: center; } .ladder-step { width: 100%; min-width: 0; } }
+        @media (max-width: 640px) {
+            .ladder { gap: 6px; }
+            .ladder-step { padding: 12px 16px; }
+            .ladder-note { margin-bottom: 36px; }
+            .pillar-grid { gap: 12px; margin-bottom: 56px; }
+            .pillar-card { padding: 28px 22px; }
+            .pillar-card h3 { font-size: 19px; }
+            .srv-subnote { margin-bottom: 28px; }
+        }
 
         /* PORTFOLIO */
         .portfolio { background: var(--bg-deep); color: #fff; position: relative; overflow: hidden; }
