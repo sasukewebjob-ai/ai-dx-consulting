@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#FAF7F2">
-    <title>個人事業主・経営者のためのAI・DXコンサル｜根津 仁志</title>
-    <meta name="description" content="AI研修・AI導入支援・AI内製化支援から、GASによる業務自動化まで。スプレッドシート・フォーム・メールをつなぎ、転記・集計・返信の手間を減らします。根津仁志が相談から実装・定着まで超伴走型で支援。全国オンライン対応・初回相談無料。">
+    <title>手作業を減らす業務改善・はじめてのAI研修｜根津 仁志</title>
+    <meta name="description" content="転記・集計・返信などの手作業を減らすしくみづくりと、社員がAIの使い方を学ぶ研修。AIに詳しくなくても、今の困りごとから相談できます。根津仁志が相談から使い方まで超伴走型で支援。全国オンライン対応・初回相談無料。">
     <link rel="canonical" href="https://sasukewebjob-ai.github.io/ai-dx-consulting/">
 
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231A1A1A'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='38' fill='%23D4B785' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://sasukewebjob-ai.github.io/ai-dx-consulting/">
-    <meta property="og:title" content="個人事業主・経営者のためのAI・DXコンサル｜根津 仁志">
-    <meta property="og:description" content="AI研修・AI導入支援・AI内製化支援から、GASによる業務自動化まで。スプレッドシート・フォーム・メールをつなぎ、転記・集計・返信の手間を減らします。根津仁志が相談から実装・定着まで超伴走型で支援。全国オンライン対応・初回相談無料。">
+    <meta property="og:title" content="手作業を減らす業務改善・はじめてのAI研修｜根津 仁志">
+    <meta property="og:description" content="転記・集計・返信などの手作業を減らすしくみづくりと、社員がAIの使い方を学ぶ研修。AIに詳しくなくても、今の困りごとから相談できます。根津仁志が相談から使い方まで超伴走型で支援。全国オンライン対応・初回相談無料。">
     <meta property="og:locale" content="ja_JP">
-    <meta property="og:site_name" content="根津 仁志｜AI・DXコンサル">
+    <meta property="og:site_name" content="根津 仁志｜業務改善・AI研修">
     <meta name="twitter:card" content="summary">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,87 +40,149 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.button:hover{transform:none}}
 
 .automation{background:var(--paper);border-top:1px solid var(--line)}.automation-intro{max-width:760px;font-size:15px;line-height:2;margin-bottom:30px}.automation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.automation-grid article{background:white;border:1px solid var(--line);border-radius:var(--radius);padding:25px}.automation-grid h3{font-size:19px;line-height:1.7;margin:10px 0 14px}.automation-grid p{font-size:14px;line-height:1.95}.automation-tools{display:block;border-top:1px solid var(--line);padding-top:15px;margin-top:20px;font-size:12px;color:var(--green)}.automation-footer{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:28px}.automation-footer p{font-size:14px;max-width:710px}.automation-footer .text-link{flex:none}@media(max-width:850px){.automation-grid{grid-template-columns:1fr}.automation-grid article{padding:24px}.automation-footer{flex-direction:column;align-items:flex-start;gap:18px}}
+
+/* 目的別の2つの入口：緑は業務効率化、青はAI研修。 */
+:root{--blue:#245e91;--blue-dark:#1c456d;--blue-light:#edf4fb;--blue-line:#c5d8e9}
+.header-nav .nav-work{color:var(--green)}.header-nav .nav-learn{color:var(--blue)}
+.hero-actions{gap:12px;flex-wrap:wrap}.hero-actions>.button{flex-basis:100%;max-width:330px}.hero-path{display:inline-flex;align-items:center;justify-content:space-between;gap:15px;border:1px solid;padding:10px 15px;border-radius:4px;text-decoration:none;font-size:13px;font-weight:600;min-height:46px}.hero-path-work{color:var(--green);border-color:#b9cebf;background:#f1f6ef}.hero-path-learn{color:var(--blue);border-color:var(--blue-line);background:var(--blue-light)}.hero-path:hover{filter:brightness(.96)}
+.path-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.path-card{--path-color:var(--green);--path-tint:#f1f6ef;display:flex;flex-direction:column;background:var(--path-tint);border:1px solid #cbdccf;border-top:4px solid var(--path-color);border-radius:5px;padding:33px;text-decoration:none;transition:transform .2s,box-shadow .2s}.path-learn{--path-color:var(--blue);--path-tint:var(--blue-light);border-color:var(--blue-line);border-top-color:var(--blue)}.path-card:hover{transform:translateY(-3px);box-shadow:0 8px 22px #25352e0d}.path-label{color:var(--path-color);font-size:13px;font-weight:600;letter-spacing:.03em}.path-card h3{font:500 clamp(25px,2.7vw,35px)/1.7 var(--serif);margin-top:20px}.path-card>p{font-size:15px;margin-top:18px;line-height:1.95}.path-outcome{font-size:13px;color:var(--path-color);font-weight:500;padding-top:21px;margin-top:auto}.path-link{display:flex;justify-content:space-between;gap:15px;border-top:1px solid #cbdccf;padding-top:18px;margin-top:22px;font-weight:600;font-size:14px;color:var(--path-color)}.path-learn .path-link{border-color:var(--blue-line)}
+.work-service{background:#edf3e9;border-top:5px solid var(--green)}.work-service .service-category{color:var(--green)}.work-overview{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.work-explanation h3{font:500 25px/1.7 var(--serif)}.work-explanation p{margin-top:20px;font-size:15px}.work-explanation .button{margin-top:26px}.work-overview .service-card{display:flex}.work-overview .service-card h3{font-size:26px}.automation{background:#f6f8f2}.automation-grid .case-state{position:static;max-width:none;margin-top:14px}.works .eyebrow,.automation .eyebrow,.usecases .eyebrow{color:var(--green)}
+.learning{--green:var(--blue);--forest:var(--blue-dark);--light-green:var(--blue-light);--gold:var(--blue);--line:var(--blue-line);background:var(--blue-light);border-top:5px solid var(--blue)}.learning .service-category{color:var(--blue)}.learning-intro{max-width:800px;font-size:16px;line-height:2}.learning-proof{display:flex;gap:20px;flex-wrap:wrap;align-items:center;margin:28px 0;padding:18px 22px;border-left:3px solid var(--blue);background:#fff}.learning-proof strong{font-size:18px;font-weight:500;color:var(--blue-dark)}.learning-proof span{font-size:13px;color:var(--muted)}.learning .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.learning .service-card{display:flex;border-color:var(--blue-line);border-top-color:var(--blue);padding-inline:30px}.learning .service-symbol{background:var(--blue-light);border-color:var(--blue-line)}.learning .service-list{font-size:14px}.learning-footer{margin-top:32px;padding-top:24px;border-top:1px solid var(--blue-line);display:flex;align-items:center;justify-content:space-between;gap:22px}.learning-footer p{font-size:13px}.learning-footer a{flex:none}
+@media(max-width:1100px){.header-nav{gap:16px}.work-overview{gap:32px}.path-card{padding:26px}}
+@media(max-width:850px){.work-overview{grid-template-columns:1fr}.work-overview .service-card{max-width:none}.learning .service-card{padding:25px 24px 0}.learning .service-list{align-self:stretch;margin:20px 0}.learning .service-result{align-self:stretch}.learning .service-description{margin-bottom:0}.learning-footer{flex-direction:column;align-items:flex-start}.path-card>p br{display:none}}
+@media(max-width:620px){.path-grid,.learning .service-grid{grid-template-columns:1fr}.path-card{padding:25px}.path-card h3{font-size:29px}.path-outcome{padding-top:20px}.learning-proof{gap:5px}.learning-proof strong{font-size:17px}}
+@media(max-width:540px){.hero-actions{flex-direction:row;gap:10px}.hero-actions>.button{max-width:none}.hero-path{font-size:12px;padding:10px 12px;gap:10px}.work-explanation h3{font-size:23px}.work-overview .service-card h3{font-size:24px}.learning .service-card h3{font-size:28px}.learning .service-description{margin-bottom:20px}.learning .service-list{margin-top:0}.learning .service-result{margin-top:auto}.learning-intro{font-size:15px}.path-card h3{font-size:28px}}
+
+/* 初めてAIに触れる方にも読みやすい文量・見出し幅。 */
+.beginner-note{margin-top:18px;padding-left:13px;border-left:3px solid var(--gold-light);font-size:14px;color:var(--forest);font-weight:500}
+.hero-actions{display:grid;grid-template-columns:max-content max-content;justify-content:start}.hero-actions>.button{grid-column:1/-1;width:100%}
+.hero h1{font-size:clamp(32px,3.5vw,46px);letter-spacing:-.04em}
+.hero .eyebrow{letter-spacing:.025em}.hero-lead{font-size:18px}.hero-description strong{font-weight:600;color:var(--ink)}
+.case-heading h3{font-size:19px}.learning .service-card h3{font-size:26px}.case-state{line-height:1.7}
+@media(max-width:1100px){.hero h1{font-size:clamp(30px,3.6vw,39px)}.hero-lead{font-size:16px}}
+@media(max-width:850px){.hero h1{font-size:clamp(35px,5.9vw,46px)}}
+@media(max-width:540px){.hero h1{font-size:clamp(22px,6.6vw,35px)}.hero .eyebrow{font-size:11px;gap:6px}.hero .eyebrow-line{width:12px}.hero-lead{font-size:15px}.beginner-note{font-size:13px}.hero-actions{grid-template-columns:1fr 1.35fr}.learning .service-card h3{font-size:24px}.case-heading h3{font-size:21px}.case-heading{padding-right:0}.case-heading .case-state{position:static;max-width:none;margin-top:10px}}
+/* 本文を隠さず、読む流れに合わせて動きを添える。 */
+.site-header{transition:box-shadow .25s,background .25s}
+.site-header.is-scrolled{box-shadow:0 4px 18px #183e300c}
+.site-header::after{content:'';position:absolute;bottom:-1px;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--green),var(--blue));transform:scaleX(var(--reading-progress,0));transform-origin:left;pointer-events:none}
+.hero h1 em::after{content:'';position:absolute;left:0;bottom:-7px;width:100%;height:3px;background:linear-gradient(90deg,#12634655,#245e9130);transform-origin:left}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.proof-strip strong .counter-visual{font:inherit;color:inherit;margin:0;letter-spacing:inherit}
+.counter-digits{display:inline-block;font:inherit;font-variant-numeric:tabular-nums;text-align:right}
+.service-card,.automation-grid article{transition:transform .25s,box-shadow .25s,border-color .25s}
+.button>span,.header-cta>span,.hero-path>span,.path-link>span,.service-link>span,.text-link>span{display:inline-block;transition:transform .25s}
+.path-card:focus-visible{box-shadow:0 8px 22px #25352e15}
+@media(hover:hover) and (pointer:fine){
+  .service-card:hover,.automation-grid article:hover{transform:translateY(-5px);box-shadow:0 12px 28px #25352e12;border-color:#a5bca9}
+  .learning .service-card:hover{border-color:#8caeca;box-shadow:0 12px 28px #245e9115}
+  .button:hover>span,.header-cta:hover>span,.service-link:hover>span,.text-link:hover>span{transform:translate(3px,-2px)}
+  .path-card:hover .path-link>span,.hero-path:hover>span{transform:translateY(4px)}
+}
+.button:focus-visible>span,.header-cta:focus-visible>span{transform:translate(3px,-2px)}
+@media(prefers-reduced-motion:no-preference){
+  .motion-ready .hero h1 em::after{animation:underline-grow .9s .15s both}
+  .faq-item[open] .faq-answer{animation:answer-settle .24s ease-out}
+  .case-flow.flow-playing li{animation:flow-step 1.1s ease-in-out both}
+  .case-flow.flow-playing li:nth-child(2){animation-delay:.4s}
+  .case-flow.flow-playing li:nth-child(3){animation-delay:.8s}
+  @keyframes underline-grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @keyframes answer-settle{from{transform:translateY(-5px)}to{transform:translateY(0)}}
+  @keyframes flow-step{0%,100%{background:#f0f4e9;box-shadow:0 0 0 0 #12634600}40%,60%{background:#dcebd7;box-shadow:0 0 0 3px #12634620}}
+}
+@media(prefers-reduced-motion:reduce){
+  .service-card:hover,.automation-grid article:hover,.path-card:hover,.button>span,.header-cta>span,.hero-path>span,.path-link>span,.service-link>span,.text-link>span{transform:none!important}
+}
 </style>
 </head>
-<body>
+<body id="top">
 <a class="skip-link" href="#main">本文へ移動</a>
-<header class="site-header" id="top"><div class="container header-inner">
-  <a class="brand" href="#top" aria-label="根津仁志 AI・DXコンサル トップ"><span class="brand-symbol" aria-hidden="true">N.</span><span>根津 仁志<small>AI・DXコンサル / Webマーケター</small></span></a>
-  <nav class="header-nav" aria-label="メインナビゲーション"><a href="#services">支援内容</a><a href="#works">実装事例</a><a href="#profile">プロフィール</a></nav>
+<header class="site-header"><div class="container header-inner">
+  <a class="brand" href="#top" aria-label="根津仁志 業務改善・AI研修 トップ"><span class="brand-symbol" aria-hidden="true">N.</span><span>根津 仁志<small>業務改善・AI研修の相談役</small></span></a>
+  <nav class="header-nav" aria-label="メインナビゲーション"><a href="#efficiency" class="nav-work">業務効率化</a><a href="#training" class="nav-learn">AI研修・人材育成</a><a href="#profile">プロフィール</a></nav>
   <a class="header-cta" href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">無料相談 <span aria-hidden="true">↗</span></a>
 </div></header>
 <main id="main">
 <section class="hero" id="hero" aria-labelledby="hero-title"><div class="container">
   <div class="hero-grid">
-    <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span> 個人事業主・経営者のためのAI・DX支援</p><h1 id="hero-title">AIを、現場で使える<br><em>会社の力に。</em></h1><p class="hero-lead">相談して、一緒につくって、使えるようになる。<br class="pc-br">あなたの業務に寄り添う、<strong>超伴走型</strong>のAI支援。</p><p class="hero-description">AI研修から、GASで転記・集計・メール返信を自動化するしくみまで。<br class="pc-br">まずは、時間がかかっている1つの業務から始めませんか。</p><div class="hero-actions"><a class="button button-primary" href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">LINEで無料相談する <span aria-hidden="true">↗</span></a><a class="text-link" href="#services">3つの支援を見る <span aria-hidden="true">↓</span></a></div><p class="hero-note">初回相談無料 <span aria-hidden="true">／</span> 全国オンライン対応 <span aria-hidden="true">／</span> 無理な売り込みはしません</p></div>
-    <aside class="hero-support" aria-label="根津仁志の支援スタイル"><p class="support-kicker">YOUR AI PARTNER</p><p class="support-title">画面を共有して、<br>一緒に手を動かす。</p><div class="partner"><img src="profile.jpg" width="480" height="484" alt="AI・DXコンサル 根津仁志" fetchpriority="high" decoding="async"><div><span class="partner-role">相談から実装・定着まで</span><strong>根津 仁志</strong><span class="partner-reading">ねつ ひとし</span></div></div><ol class="support-list"><li><span class="support-number">01</span><div><strong>実際の業務を持ち込む</strong><span>「何に困っているか」から整理</span></div></li><li><span class="support-number">02</span><div><strong>その業務で、一緒に作る</strong><span>画面共有で操作・構築を支援</span></div></li><li><span class="support-number">03</span><div><strong>使って、つまずきを解消</strong><span>現場で続けられる形へ改善</span></div></li></ol><p class="support-foot">AI研修 / 導入支援 / 内製化支援</p></aside>
+    <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span> 個人事業主・経営者のための業務改善・AI研修</p><h1 id="hero-title">毎日の手間を減らす。<br><em>AIを仕事で使えるように。</em></h1><p class="hero-lead">「同じ入力や集計に、毎日時間がかかる」<br>「AIが気になるけれど、使い方がわからない」</p><p class="hero-description">手作業を減らすしくみづくりと、社員向けのAI研修。<br class="pc-br">相談して終わりではなく、一緒に手を動かし、使えるところまで支える<strong>「超伴走型」</strong>の支援です。</p><p class="beginner-note">AIの知識は不要です。使う道具選びから相談できます。</p><div class="hero-actions"><a class="button button-primary" href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">LINEで無料相談する <span aria-hidden="true">↗</span></a><a class="hero-path hero-path-work" href="#efficiency">業務効率化 <span aria-hidden="true">↓</span></a><a class="hero-path hero-path-learn" href="#training">AI研修・人材育成 <span aria-hidden="true">↓</span></a></div><p class="hero-note">初回相談無料 <span aria-hidden="true">／</span> 全国オンライン対応 <span aria-hidden="true">／</span> 無理な売り込みはしません</p></div>
+    <aside class="hero-support" aria-label="根津仁志の支援スタイル"><p class="support-kicker">根津本人が、直接お手伝いします</p><p class="support-title">同じ画面を見ながら、<br>一緒に進める。</p><div class="partner"><img src="profile.jpg" width="480" height="484" alt="業務改善・AI研修の相談役 根津仁志" fetchpriority="high" decoding="async"><div><span class="partner-role">相談から、実際に使うところまで</span><strong>根津 仁志</strong><span class="partner-reading">ねつ ひとし</span></div></div><ol class="support-list"><li><span class="support-number">01</span><div><strong>困っている作業を教えてください</strong><span>専門的な説明や準備は不要です</span></div></li><li><span class="support-number">02</span><div><strong>目的に合わせ、一緒に進める</strong><span>しくみを作る・AIの使い方を学ぶ</span></div></li><li><span class="support-number">03</span><div><strong>わからないところを一緒に解決</strong><span>普段の仕事で使える形へ整えます</span></div></li></ol><p class="support-foot">業務効率化・自動化 / AI研修・人材育成</p></aside>
   </div>
-  <div class="proof-strip" aria-label="根津仁志の実績"><div><strong>30<span>件以上</span></strong><p>アプリ・システムの開発実績</p></div><div><strong>300<span>名以上</span></strong><p>AI・Webライティング講座で指導</p></div><div><strong>10<span>回以上</span></strong><p>セミナー・ウェビナー登壇</p></div></div>
+  <div class="proof-strip" aria-label="根津仁志の実績"><div><strong>30<span>件以上</span></strong><p>アプリ・システムの開発実績</p></div><div><strong>400<span>名以上</span></strong><p>AI・Webライティング講座で指導</p></div><div><strong>10<span>回以上</span></strong><p>会場・オンラインでのセミナー登壇</p></div></div>
 </div></section>
 
-<section class="problem section-space" aria-labelledby="problem-title"><div class="container problem-layout"><div class="problem-heading"><p class="eyebrow">WHERE TO START</p><h2 id="problem-title">こんなところで、<br>止まっていませんか。</h2><p>AIを契約する、その先へ。<br>今の状況に合う入口から始められます。</p></div><div class="problem-list"><a href="#training"><span class="problem-no">01</span><div><h3>AIを使いたいけれど、社員が使いこなせない</h3><p>実際の仕事で使い方を身につける「AI研修」へ</p></div><span class="problem-arrow" aria-hidden="true">↗</span></a><a href="#implementation"><span class="problem-no">02</span><div><h3>資料・見積・転記などの手作業が減らない</h3><p>自社の業務に組み込む「AI導入支援」へ</p></div><span class="problem-arrow" aria-hidden="true">↗</span></a><a href="#inhouse"><span class="problem-no">03</span><div><h3>AIに詳しい人がいない。外部に頼りきり</h3><p>社内で作り、改善できる人を育てる「AI内製化支援」へ</p></div><span class="problem-arrow" aria-hidden="true">↗</span></a></div></div></section>
-
 <section class="services section-space" id="services" aria-labelledby="services-title"><div class="container">
-  <div class="section-heading"><div><p class="eyebrow">01 / SERVICES</p><h2 id="services-title">「使ってみる」から、<br>「社内で続ける」まで。</h2></div><p>目的に合わせて選べる、3つの支援。<br>研修だけ、1業務の導入だけでもご相談ください。</p></div>
-  <div class="service-grid">
-    <article class="service-card" id="training"><div class="service-top"><span>01 / TRAINING</span><span class="service-symbol" aria-hidden="true">学</span></div><p class="service-audience">社員がAIを使えるようになりたい</p><h3>AI研修</h3><p class="service-tagline">自分の仕事で、使い方をつかむ。</p><p class="service-description">議事録・資料・メールなど、実際の業務を持ち込むワーク中心の研修です。内容は事前のヒアリングで自社向けに調整します。</p><ul class="service-list"><li>AIの使い分け・指示の出し方</li><li>自社の業務に合わせた実践ワーク</li><li>研修で作ったプロンプト集を納品</li></ul><div class="service-result"><span>手元に残るもの</span><p>業務で使えるプロンプトと、<br>自分で使ってみた経験。</p></div><a href="#contact" class="service-link">研修について相談する <span aria-hidden="true">↗</span></a></article>
-    <article class="service-card service-featured" id="implementation"><div class="service-top"><span>02 / IMPLEMENTATION</span><span class="service-symbol" aria-hidden="true">実</span></div><p class="service-audience">日々の手作業を減らしたい</p><h3>AI導入支援</h3><p class="service-tagline">AI活用・GASによる業務自動化。</p><p class="service-description">業務の棚卸しから、AIやGASを使ったしくみの構築まで。スプレッドシート・フォーム・メールをつなぎ、毎日の手作業を減らします。</p><ul class="service-list"><li>改善する業務と優先順位を整理</li><li>GASで転記・集計・定型返信を自動化</li><li>使い方の共有と運用のフォロー</li></ul><div class="service-result"><span>手元に残るもの</span><p>業務に合う自動化ツールと、<br>担当者が使い続けるための手順。</p></div><a href="#automation" class="service-link">GASの業務自動化を見る <span aria-hidden="true">↓</span></a></article>
-    <article class="service-card" id="inhouse"><div class="service-top"><span>03 / IN-HOUSE</span><span class="service-symbol" aria-hidden="true">育</span></div><p class="service-audience">社内で改善を続けられるようにしたい</p><h3>AI内製化支援</h3><p class="service-tagline">自分たちで作れる人と、型を育てる。</p><p class="service-description">AI推進担当者が、自分で業務ツールを作るところまで伴走。活用方法を社内に残し、共有できる状態を目指します。</p><ul class="service-list"><li>AI推進担当者への個別伴走</li><li>自動化・業務ツールの制作指導</li><li>活用事例集・社内研修の整備</li></ul><div class="service-result"><span>手元に残るもの</span><p>社内のAI推進役と、<br>引き継げる知識・しくみ。</p></div><a href="#contact" class="service-link">内製化について相談する <span aria-hidden="true">↗</span></a></article>
-  </div>
-  <p class="service-note">どの段階からでもご依頼いただけます。期間・頻度・範囲は、課題と体制に合わせてご提案します。</p>
-  <div class="capabilities"><p>必要に応じて、実装まで。</p><div><span>GAS・Google Workspace連携</span><span>自社向けツール開発</span><span>情報発信・SNS制作の効率化</span></div></div>
+  <div class="section-heading"><div><p class="eyebrow">何を頼めるの？</p><h2 id="services-title">目的で選べる、2つの支援。</h2></div><p>「作業を楽にするしくみを作ってほしい」<br>「社員にAIの使い方を教えてほしい」から選べます。</p></div>
+  <div class="path-grid">
+    <a class="path-card path-work" href="#efficiency"><span class="path-label">01 / 業務効率化・自動化</span><h3>毎日の手作業を、<br>しくみで減らす。</h3><p>同じ内容の入力や、申込の返信に追われている方へ。<br>入力・集計・連絡を自動で進めるしくみを作ります。</p><span class="path-outcome">お渡しするもの：仕事で使うしくみと使い方</span><span class="path-link">業務効率化の支援・事例を見る <span aria-hidden="true">↓</span></span></a>
+    <a class="path-card path-learn" href="#training"><span class="path-label">02 / AI研修・人材育成</span><h3>社員がAIを、<br>仕事で使えるように。</h3><p>AIを初めて使う社員や、使い方に迷う方へ。<br>メールや資料の下書きなど、実際の仕事で練習します。</p><span class="path-outcome">身につけること：AIの使い方と仕事への活かし方</span><span class="path-link">AI研修・人材育成の内容を見る <span aria-hidden="true">↓</span></span></a>
+  </div><p class="service-note">どちらか一方だけのご依頼も可能です。迷った場合は、無料相談で一緒に整理します。</p>
+</div></section>
+
+<section class="work-service section-space" id="efficiency" aria-labelledby="efficiency-title"><div class="container">
+  <div class="section-heading"><div><p class="eyebrow service-category">01 / 業務効率化・自動化</p><h2 id="efficiency-title">手作業を減らす、<br>しくみをつくる。</h2></div><p>同じ内容を何度も入力する。申込のたびに返信する。<br>繰り返している作業を、自動で進む形に変えます。</p></div>
+  <div class="work-overview"><div class="work-explanation"><h3>今の仕事のやり方を、聞くところから。</h3><p>「申込の内容を表に写すのが大変」「毎回同じメールを送っている」。普段の作業を教えてください。今お使いの表計算ソフトやメールを確認し、どこを楽にできるか一緒に考えます。</p><p>使う技術やサービスを、先に選んでおく必要はありません。AIを使わない方法も含めてご提案し、しくみの作成から、担当者への使い方の説明までお手伝いします。</p><a class="button button-primary" href="#contact">業務効率化について相談する <span aria-hidden="true">↗</span></a></div>    <article class="service-card service-featured" id="implementation"><div class="service-top"><span>業務効率化でお手伝いすること</span><span class="service-symbol" aria-hidden="true">実</span></div><p class="service-audience">日々の手作業を減らしたい</p><h3>入力・集計・連絡を自動に</h3><p class="service-tagline">まずは、時間がかかる1つの作業から。</p><p class="service-description">たとえば、申込が届いたら、受付の返信を送り、参加者一覧に追加する。毎回人が行っている一連の作業を、まとめて進められる形にします。</p><ul class="service-list"><li>時間がかかる作業を一緒に整理</li><li>入力・集計・返信のしくみを作成</li><li>動作を確認し、使い方をご説明</li></ul><div class="service-result"><span>手元に残るもの</span><p>あなたの業務で使うしくみと、<br>担当者が迷わず使うための手順。</p></div><a href="#automation" class="service-link">どんな作業を減らせるか見る <span aria-hidden="true">↓</span></a></article></div>
 </div></section>
 
 <section class="automation section-space" id="automation" aria-labelledby="automation-title"><div class="container">
-  <div class="section-heading"><div><p class="eyebrow">GAS / WORKFLOW AUTOMATION</p><h2 id="automation-title">GASによる業務自動化</h2></div><p>受付・予約・集計・連絡まで。<br>ポートフォリオ掲載の制作例をご紹介します。</p></div>
-  <p class="automation-intro">GAS（Google Apps Script）は、Googleスプレッドシートやフォーム、Gmailなどを連携させるしくみです。今の作業の流れを整理し、繰り返し発生する定型業務を自動化します。AIを使わない業務自動化だけでもご相談いただけます。</p>
+  <div class="section-heading"><div><p class="eyebrow">業務効率化 / こんな作業を楽にできます</p><h2 id="automation-title">入力・集計・連絡の手間を、<br>こんなふうに減らせます。</h2></div><p>これまでに作ったしくみをご紹介します。<br>実際に使われているものと、試作段階のものを区別しています。</p></div>
+  <p class="automation-intro">たとえば、LINEに入れた依頼を一覧表に残したり、予約日の前にお知らせを送ったり。普段使っているサービスをつなぐことで、人が何度も入力・確認している作業を減らせます。どの方法が使えるかは、今の環境を確認してご提案します。</p>
   <div class="automation-grid">
-    <article><span class="case-index">01 / タスク管理</span><h3>LINEで依頼・期限を管理</h3><p>LINEからタスクを登録し、担当者への通知と期限前リマインドを自動化。担当者10名が日常利用しているしくみです。</p><span class="automation-tools">GAS / LINE / スプレッドシート</span><span class="case-state">本番稼働</span></article>
-    <article><span class="case-index">02 / 面談の連絡</span><h3>予定に合わせてLINE通知</h3><p>Googleカレンダーの予定を検知し、面談の予約から直前まで6種類のLINE通知を自動送信。運営者の連絡作業を支えています。</p><span class="automation-tools">GAS / Googleカレンダー / LINE</span><span class="case-state">本番稼働</span></article>
-    <article><span class="case-index">03 / 申込受付</span><h3>受付・返信・参加費を集計</h3><p>イベントのWeb申込から、控えメールの自動返信、参加料の集計までを連携。バドミントン交流会で実際に運用しています。</p><span class="automation-tools">GAS / Webフォーム / スプレッドシート</span><span class="case-state">実イベントで運用</span></article>
-    <article><span class="case-index">04 / 予約・空き枠</span><h3>カレンダーと受付台帳を連携</h3><p>Googleカレンダーから台帳へ予約を同期し、空き枠表示と予約フォームにつなぐ開発例。店舗版はテスト・デモ段階です。</p><span class="automation-tools">GAS / Googleカレンダー / スプレッドシート</span><span class="case-state">検証中・本番運用前</span></article>
-    <article><span class="case-index">05 / 集計・計算</span><h3>スコアから順位・組合せへ</h3><p>ランキング戦のスコアから勝敗・順位・昇降格を計算。次節の組合せや最終順位までつなぐ、スプレッドシート連携を実装しました。</p><span class="automation-tools">GAS / JavaScript / スプレッドシート</span><span class="case-state">制作済み</span></article>
-    <article><span class="case-index">06 / メール整理</span><h3>溜まった受信メールを整理</h3><p>送信元・件名のルールで既存メールにラベルを付け、一括でアーカイブ。新着メールの継続的な振り分けにはGmail標準フィルタを使います。</p><span class="automation-tools">GAS / Gmail</span><span class="case-state">制作済み</span></article>
+    <article><span class="case-index">01 / 仕事の依頼・期限</span><h3>LINEで依頼・期限を管理</h3><p>LINEに仕事の依頼を入れると、担当者に届き、期限が近づくと自動でお知らせ。担当者10名が日常利用しているしくみです。</p><span class="automation-tools">依頼の一覧化・期限前のお知らせ</span><span class="case-state">実際の業務で利用中</span></article>
+    <article><span class="case-index">02 / 面談の連絡</span><h3>予定に合わせてLINE通知</h3><p>カレンダーに入れた面談の予定に合わせて、予約時から面談直前まで6種類のお知らせをLINEで自動送信。運営者が毎回連絡する手間を減らします。</p><span class="automation-tools">面談予定に合わせた自動連絡</span><span class="case-state">実際の業務で利用中</span></article>
+    <article><span class="case-index">03 / 申込受付</span><h3>受付・返信・参加費を集計</h3><p>ネットで申込を受け付けると、確認メールの返信や参加費の集計まで自動で進みます。バドミントン交流会で実際に使っています。</p><span class="automation-tools">申込受付・返信・参加費の集計</span><span class="case-state">イベントで利用中</span></article>
+    <article><span class="case-index">04 / 予約・空き枠</span><h3>予約を一覧にまとめ、空き枠を表示</h3><p>カレンダーの予約を一覧表に写し、空いている時間の表示とネット予約につなぐしくみです。店舗向けのものは現在試作・動作確認中で、本番での利用前です。</p><span class="automation-tools">予約の一覧化・空き時間の表示</span><span class="case-state">試作・動作確認中</span></article>
+    <article><span class="case-index">05 / 集計・計算</span><h3>試合結果から順位・組合せを計算</h3><p>試合の点数を入力すると、勝敗や順位、昇格・降格を計算。次の対戦の組合せや最終順位まで、表計算でまとめるしくみを作りました。</p><span class="automation-tools">点数入力から順位・組合せの計算</span><span class="case-state">制作済み</span></article>
+    <article><span class="case-index">06 / メール整理</span><h3>溜まった受信メールを整理</h3><p>溜まったメールを送信元や件名で分類し、削除せずに受信一覧から片づけます。今後届くメールの自動振り分けには、Gmailにもともとある設定を使います。</p><span class="automation-tools">溜まった受信メールの分類・整理</span><span class="case-state">制作済み</span></article>
   </div>
-  <div class="automation-footer"><p>こうした制作経験をもとに、あなたの業務に合わせて設計します。業務整理・GASの開発・動作確認・使い方の共有まで伴走します。</p><a class="text-link" href="#contact">業務自動化を相談する <span aria-hidden="true">↗</span></a></div>
-  <div class="portfolio-link"><p>各制作物の詳しい内容・運用状況は、ポートフォリオでご覧いただけます。</p><a class="text-link" href="https://sasukewebjob-ai.github.io/portfolio/" target="_blank" rel="noopener">GASの制作例を詳しく見る <span aria-hidden="true">↗</span></a></div>
+  <div class="automation-footer"><p>「これに似た作業を毎日している」というご相談も歓迎です。あなたの仕事の流れに合わせて、しくみづくりから使い方の説明までお手伝いします。</p><a class="text-link" href="#contact">業務自動化を相談する <span aria-hidden="true">↗</span></a></div>
+  <div class="portfolio-link"><p>それぞれの詳しい内容や、現在の利用状況は制作実績のページでご覧いただけます。</p><a class="text-link" href="https://sasukewebjob-ai.github.io/portfolio/" target="_blank" rel="noopener">ほかの制作例も見る <span aria-hidden="true">↗</span></a></div>
 </div></section>
-
-<section class="approach" aria-labelledby="approach-title"><div class="container approach-layout"><div><p class="eyebrow">HANDS-ON SUPPORT</p><h2 id="approach-title">できるまで、一緒に作る。<br>それが「超伴走型」です。</h2><p class="approach-intro">操作が分からない、業務に合わない、続かない。<br>一人で抱えず、その場で一緒に解決していく支援です。</p></div><ol class="approach-points"><li><span>01</span><div><h3>画面共有で、一緒に手を動かす</h3><p>説明を聞くだけでなく、実際の操作やツール構築を進めます。</p></div></li><li><span>02</span><div><h3>使ってみた後の、つまずきを見る</h3><p>継続支援では定期面談で進み具合を確認し、次の一手を考えます。</p></div></li><li><span>03</span><div><h3>実務の目線で、しくみを設計する</h3><p>経理・SEO・記事制作・講座運営の経験をもとに、現場での使い方まで考えます。</p></div></li></ol></div></section>
 
 <section class="works section-space" id="works" aria-labelledby="works-title"><div class="container">
-  <div class="section-heading"><div><p class="eyebrow">02 / IMPLEMENTED WORKS</p><h2 id="works-title">実際に、こんなしくみを<br>作ってきました。</h2></div><p>業務の困りごとを、動く形に。<br>制作・運用してきたシステムから3つをご紹介します。</p></div>
+  <div class="section-heading"><div><p class="eyebrow">業務効率化 / 実際に使われている例</p><h2 id="works-title">実際に、こんなしくみを<br>作ってきました。</h2></div><p>どんな困りごとがあり、何を作ったのか。<br>実際に使われている3つの例でご紹介します。</p></div>
   <div class="case-list">
-    <article class="case-row"><div class="case-heading"><span class="case-index">CASE 01</span><h3>LINEタスク管理</h3><p>GAS × LINE × スプレッドシート</p><span class="case-state">本番稼働</span></div><div class="case-body"><dl><div><dt>課題</dt><dd>依頼や期限管理が口頭・別々のツールに分散。確認や催促が手作業に。</dd></div><div><dt>実装</dt><dd>GASでLINEとスプレッドシートを連携。タスク登録から担当者への通知、期限前リマインドまで自動化。</dd></div></dl><ol class="case-flow" aria-label="LINEタスク管理の流れ"><li>LINEで登録</li><li>担当者へ通知</li><li>期限前に通知</li></ol></div><div class="case-evidence"><strong>10<span>名</span></strong><p>担当者が日常利用</p></div></article>
-    <article class="case-row"><div class="case-heading"><span class="case-index">CASE 02</span><h3>見積書自動作成</h3><p>建設会社の社内ツール</p><span class="case-state">社内で稼働</span></div><div class="case-body"><dl><div><dt>課題</dt><dd>手書き見積をExcelへ清書。転記と過去単価の確認に手間がかかる。</dd></div><div><dt>実装</dt><dd>手書き・PDFの見積を単価辞書と照合し、Excel見積書を自動生成。</dd></div></dl><ol class="case-flow" aria-label="見積書自動作成の流れ"><li>PDFを読み取り</li><li>単価辞書と照合</li><li>Excelを生成</li></ol></div><div class="case-evidence"><strong>707<span>品目</span></strong><p>単価辞書を活用</p></div></article>
-    <article class="case-row"><div class="case-heading"><span class="case-index">CASE 03</span><h3>イベントWeb申込</h3><p>GAS × Webフォーム × メール</p><span class="case-state">実イベントで運用</span></div><div class="case-body"><dl><div><dt>課題</dt><dd>紙やメールの申込を手作業で集計。返信と参加費管理にも時間がかかる。</dd></div><div><dt>実装</dt><dd>GASでWebフォームの受付から控えメールの返信、名簿・参加費の集計までを連携。</dd></div></dl><ol class="case-flow" aria-label="イベントWeb申込の流れ"><li>Webで受付</li><li>自動で返信</li><li>名簿・金額集計</li></ol></div><div class="case-evidence"><strong class="case-word">受付から<br>集計まで</strong><p>一連の流れを自動化</p></div></article>
+    <article class="case-row"><div class="case-heading"><span class="case-index">CASE 01</span><h3>LINEで仕事の依頼・期限を管理</h3><p>仕事の依頼と期限のお知らせ</p><span class="case-state">実際の業務で利用中</span></div><div class="case-body"><dl><div><dt>課題</dt><dd>仕事の依頼が口頭や別々の連絡先に分かれ、誰がいつまでに行うかの確認や催促が手作業に。</dd></div><div><dt>対応</dt><dd>LINEに入れた依頼を一覧表に残し、担当者への連絡と期限前のお知らせまで自動で送るしくみを作成。</dd></div></dl><ol class="case-flow" aria-label="LINEで仕事の依頼・期限を管理の流れ"><li>LINEで登録</li><li>担当者へ通知</li><li>期限前に通知</li></ol></div><div class="case-evidence"><strong>10<span>名</span></strong><p>担当者が日常利用</p></div></article>
+    <article class="case-row"><div class="case-heading"><span class="case-index">CASE 02</span><h3>見積書自動作成</h3><p>建設会社の社内ツール</p><span class="case-state">社内で利用中</span></div><div class="case-body"><dl><div><dt>課題</dt><dd>手書きの見積をExcelに入力し直している。書き写す作業と、過去の価格の確認に時間がかかる。</dd></div><div><dt>対応</dt><dd>手書き・PDFの見積の内容を読み取り、登録済みの価格表と突き合わせて、Excelの見積書を自動で作成。</dd></div></dl><ol class="case-flow" aria-label="見積書自動作成の流れ"><li>PDFを読み取り</li><li>価格を確認</li><li>Excelを作成</li></ol></div><div class="case-evidence"><strong>707<span>品目</span></strong><p>登録した価格表を活用</p></div></article>
+    <article class="case-row"><div class="case-heading"><span class="case-index">CASE 03</span><h3>イベントWeb申込</h3><p>ネット申込から返信・名簿作成まで</p><span class="case-state">イベントで利用中</span></div><div class="case-body"><dl><div><dt>課題</dt><dd>紙やメールの申込を手作業で集計。返信と参加費管理にも時間がかかる。</dd></div><div><dt>対応</dt><dd>ネットで申込が届いたら、確認メールの返信、参加者名簿の作成、参加費の集計まで自動で進むしくみを作成。</dd></div></dl><ol class="case-flow" aria-label="イベントWeb申込の流れ"><li>Webで受付</li><li>自動で返信</li><li>名簿・金額集計</li></ol></div><div class="case-evidence"><strong class="case-word">受付から<br>集計まで</strong><p>一連の流れを自動化</p></div></article>
   </div>
-  <div class="portfolio-link"><p>業務自動化・Web制作・現場支援など、ほかの制作物もご覧いただけます。</p><a href="https://sasukewebjob-ai.github.io/portfolio/" target="_blank" rel="noopener" class="text-link">制作実績ポートフォリオを見る <span aria-hidden="true">↗</span></a></div>
-  <details class="estimates" id="estimates"><summary><span><span class="estimate-label">参考資料 / 試算</span><strong>どれくらい時間が減る？ 業務別の目安を見る</strong></span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="estimate-content"><p class="estimate-notice">以下は構築実績をもとにした試算で、実測値や効果の保証ではありません。業務量・確認作業・運用体制により変わり、導入時の設定や習熟も必要です。</p><p class="table-hint">表は横にスクロールできます。</p><div class="table-scroll" tabindex="0" role="region" aria-label="業務別の時間削減試算"><table><caption>作業時間の比較イメージ（試算）</caption><thead><tr><th scope="col">業務</th><th scope="col">従来の作業</th><th scope="col">自動化後の目安</th><th scope="col">自動化する範囲</th></tr></thead><tbody><tr><th scope="row">議事録作成</th><td>2時間 / 回</td><td>15分 / 回</td><td>文字起こし・AI要約。人が確認・修正</td></tr><tr><th scope="row">記事・ブログ制作</th><td>8時間</td><td>2.5時間</td><td>構成・画像・入稿などの半自動化</td></tr><tr><th scope="row">提案・社内資料</th><td>6時間</td><td>1.5時間</td><td>骨子・スライドの生成と整形</td></tr><tr><th scope="row">見積書・定型帳票</th><td>30分 / 件</td><td>3分 / 件</td><td>読み取り・単価照合・帳票生成</td></tr><tr><th scope="row">申込・問い合わせ</th><td>15分 / 件</td><td>定型対応の工数を削減</td><td>受付・返信・台帳集計。個別対応は別途</td></tr><tr><th scope="row">進捗管理・催促</th><td>週5時間</td><td>週1時間</td><td>通知と期限リマインド</td></tr></tbody></table></div><div class="estimate-footer"><p>自社の場合は、業務の流れと頻度をお聞きして整理します。</p><a class="text-link" href="#contact">自分の業務で相談する ↗</a></div></div></details>
+  <div class="portfolio-link"><p>業務自動化・Web制作・現場支援など、ほかの制作物もご覧いただけます。</p><a href="https://sasukewebjob-ai.github.io/portfolio/" target="_blank" rel="noopener" class="text-link">制作実績をもっと見る <span aria-hidden="true">↗</span></a></div>
+  <details class="estimates" id="estimates"><summary><span><span class="estimate-label">参考資料 / 試算</span><strong>どれくらい時間が減る？ 業務別の目安を見る</strong></span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="estimate-content"><p class="estimate-notice">以下はこれまで作ったしくみをもとに計算した目安で、実測値や効果の保証ではありません。作業の量や、人が確認する内容によって変わります。最初の設定や、使い方に慣れる時間も必要です。</p><p class="table-hint">表は横にスクロールできます。</p><div class="table-scroll" tabindex="0" role="region" aria-label="業務別の時間削減試算"><table><caption>作業時間の比較イメージ（試算）</caption><thead><tr><th scope="col">業務</th><th scope="col">従来の作業</th><th scope="col">自動化後の目安</th><th scope="col">自動化する範囲</th></tr></thead><tbody><tr><th scope="row">議事録作成</th><td>2時間 / 回</td><td>15分 / 回</td><td>音声を文章にし、AIで要点を整理。人が確認・修正</td></tr><tr><th scope="row">記事・ブログ制作</th><td>8時間</td><td>2.5時間</td><td>記事の構成・画像づくり・掲載作業の一部を自動化</td></tr><tr><th scope="row">提案・社内資料</th><td>6時間</td><td>1.5時間</td><td>資料の下書きとスライドの作成・見た目の調整</td></tr><tr><th scope="row">見積書・決まった書式の書類</th><td>30分 / 件</td><td>3分 / 件</td><td>内容の読み取り・価格の確認・書類の作成</td></tr><tr><th scope="row">申込・問い合わせ</th><td>15分 / 件</td><td>決まった返信や集計の手間を削減</td><td>受付・返信・一覧表の集計。個別の対応は別途</td></tr><tr><th scope="row">進捗管理・催促</th><td>週5時間</td><td>週1時間</td><td>進み具合と期限のお知らせ</td></tr></tbody></table></div><div class="estimate-footer"><p>自社の場合は、業務の流れと頻度をお聞きして整理します。</p><a class="text-link" href="#contact">自分の業務で相談する ↗</a></div></div></details>
 </div></section>
 
-<section class="usecases section-space" aria-labelledby="usecases-title"><div class="container"><div class="section-heading"><div><p class="eyebrow">APPLICATION IDEAS</p><h2 id="usecases-title">あなたの業務にも、<br>使いどころがあります。</h2></div><p>以下は業種ごとの活用イメージです。<br>各業種での導入実績や効果を示すものではありません。</p></div><div class="industry-grid"><article><span>01</span><div><h3>建設・工務店</h3><p>見積の転記や単価照合を自動化し、作成を効率化。</p></div></article><article><span>02</span><div><h3>士業・専門事務所</h3><p>定型書類の下準備をAIで支援し、専門的な確認へ。</p></div></article><article><span>03</span><div><h3>店舗・サービス業</h3><p>予約確認やリマインドを、手動の連絡から自動通知へ。</p></div></article><article><span>04</span><div><h3>スクール・教室</h3><p>申込フォームから返信・名簿管理までをつなぐ。</p></div></article><article><span>05</span><div><h3>EC・小売</h3><p>商品説明やSNS投稿の下書きをAIで作り、発信を支援。</p></div></article><article><span>06</span><div><h3>自治体・公的機関</h3><p>議事録・資料作成・書類整理を、既存環境から見直す。</p></div></article></div><p class="industry-note">ここにない業種でも、「毎回同じ手作業がある」というところからご相談いただけます。</p></div></section>
+<section class="usecases section-space" aria-labelledby="usecases-title"><div class="container"><div class="section-heading"><div><p class="eyebrow">業務効率化 / 活用イメージ</p><h2 id="usecases-title">あなたの業務にも、<br>使いどころがあります。</h2></div><p>以下は業種ごとの活用イメージです。<br>各業種での導入実績や効果を示すものではありません。</p></div><div class="industry-grid"><article><span>01</span><div><h3>建設・工務店</h3><p>見積の書き写しや価格の確認を自動化し、作成の手間を減らす。</p></div></article><article><span>02</span><div><h3>士業・専門事務所</h3><p>定型書類の下準備をAIで支援し、専門的な確認へ。</p></div></article><article><span>03</span><div><h3>店舗・サービス業</h3><p>予約の確認や前日のお知らせを、自動で送れるようにする。</p></div></article><article><span>04</span><div><h3>スクール・教室</h3><p>申込フォームから返信・名簿管理までをつなぐ。</p></div></article><article><span>05</span><div><h3>ネットショップ・小売</h3><p>商品説明やSNS投稿の下書きをAIで作り、発信を支援。</p></div></article><article><span>06</span><div><h3>自治体・公的機関</h3><p>議事録・資料作成・書類整理を、既存環境から見直す。</p></div></article></div><p class="industry-note">ここにない業種でも、「毎回同じ手作業がある」というところからご相談いただけます。</p></div></section>
 
-<section class="profile section-space" id="profile" aria-labelledby="profile-title"><div class="container profile-layout"><div class="profile-intro"><p class="eyebrow">03 / YOUR PARTNER</p><h2 id="profile-title">実務のわかる人と、<br>一緒に進める。</h2><figure class="profile-photo"><img src="profile.jpg" width="480" height="484" alt="根津仁志のプロフィール写真" loading="lazy" decoding="async"><figcaption>AI・DXコンサル / Webマーケター</figcaption></figure></div><div class="profile-content"><p class="profile-reading">ねつ ひとし</p><h3>根津 仁志</h3><p class="profile-lead">経理の現場も、発信の現場も。<br>業務を知る目線で、AI活用を考えます。</p><p class="profile-bio">元会計事務所勤務・法人の経理担当。現在はAIスクール講師、SEOディレクター・Webマーケターとして、AI活用と業務改善を支援しています。経営やお金の実務経験をもとに、現場で使いやすい形を一緒に考えます。</p><ul class="profile-facts"><li>AI・Webライティング講座で300名以上の受講生を指導</li><li>30件以上のアプリ・自動化システムを開発</li><li>SEO記事制作・オウンドメディア運用、制作フローの構築・改善を支援</li></ul><div class="creator-proof"><strong>約2<span>万人</span></strong><p>YouTubeチャンネル登録者<br><span>情報発信・運用の実績</span></p></div><div class="media"><p>掲載・登壇</p><a href="https://make-a-hit.co.jp/news/25-1027/" target="_blank" rel="noopener">株式会社メイカヒット 公式サイト掲載記事① <span aria-hidden="true">↗</span></a><a href="https://make-a-hit.co.jp/news/25-0616/" target="_blank" rel="noopener">株式会社メイカヒット 公式サイト掲載記事② <span aria-hidden="true">↗</span></a><a href="https://26-0702.peatix.com/event/5047122" target="_blank" rel="noopener">セミナー登壇「Claude Codeで実演公開！SEO記事自動執筆システム」 <span aria-hidden="true">↗</span></a></div></div></div></section>
+<section class="learning section-space" id="training" aria-labelledby="training-title"><div class="container">
+  <div class="section-heading"><div><p class="eyebrow service-category">02 / AI研修・人材育成</p><h2 id="training-title">AIを仕事で使える、<br>人とチームを育てる。</h2></div><p>AIを開くところから、仕事で試すところまで。<br>参加者の経験に合わせて、一緒に練習します。</p></div>
+  <p class="learning-intro">AIは、文章の下書きや情報の整理を手伝う道具として使えます。たとえば「このメモを、相手に失礼のないメールにして」と文章で頼み、出てきた答えを確認・修正する。その一連の使い方を、普段の仕事で練習します。</p>
+  <div class="learning-proof"><strong>400名以上の受講生を指導</strong><span>AI・Webライティング講座での指導経験</span></div>
+  <div class="service-grid">    <article class="service-card"><div class="service-top"><span>はじめての方・社員向け</span><span class="service-symbol" aria-hidden="true">学</span></div><p class="service-audience">社員がAIを使えるようになりたい</p><h3>AI研修</h3><p class="service-tagline">自分の仕事で、使い方をつかむ。</p><p class="service-description">会議メモの整理、資料の下書き、メール文づくりなどを、実際に手を動かして練習します。事前に仕事内容をお聞きして、研修で扱う題材を決めます。</p><ul class="service-list"><li>AIの選び方・文章での頼み方</li><li>自分の仕事で試し、答えを確認・修正</li><li>研修で作った「AIへの頼み方の例」をお渡し</li></ul><div class="service-result"><span>手元に残るもの</span><p>仕事で使い回せる頼み方の例と、<br>自分でAIを使ってみた経験。</p></div><a href="#contact" class="service-link">研修について相談する <span aria-hidden="true">↗</span></a></article>    <article class="service-card" id="inhouse"><div class="service-top"><span>社内で教える人も育てたい方へ</span><span class="service-symbol" aria-hidden="true">育</span></div><p class="service-audience">社内で改善を続けられるようにしたい</p><h3>社内のAI担当者を育成</h3><p class="service-tagline">困ったときに聞ける人を、社内に。</p><p class="service-description">社内でAI活用を進める担当者を個別に支援します。日々の使い方に加え、仕事を楽にするしくみの作り方や、ほかの社員への伝え方も一緒に学びます。</p><ul class="service-list"><li>担当者の疑問やつまずきを個別に解決</li><li>仕事を楽にするしくみの作り方を指導</li><li>使い方の事例や、社員に教える資料を整理</li></ul><div class="service-result"><span>手元に残るもの</span><p>AIの使い方を社内に広める担当者と、<br>ほかの社員にも共有できる手順。</p></div><a href="#contact" class="service-link">担当者の育成について相談する <span aria-hidden="true">↗</span></a></article></div>
+  <p class="service-note">単発の研修だけでもご依頼いただけます。内容・頻度・範囲は、参加者の経験や目標に合わせてご提案します。</p>
+  <div class="learning-footer"><p>「自分たちで学ぶ」より「しくみを作ってほしい」という方は、業務効率化の支援へ。</p><a class="text-link" href="#efficiency">業務効率化・自動化を見る <span aria-hidden="true">↑</span></a></div>
+</div></section>
 
-<section class="process section-space" id="flow" aria-labelledby="flow-title"><div class="container"><div class="section-heading"><div><p class="eyebrow">04 / HOW WE WORK</p><h2 id="flow-title">まずは、困っていることを<br>聞かせてください。</h2></div><p>最初から詳しい仕様や知識は必要ありません。<br>現状を整理し、進め方と費用をご提案します。</p></div><ol class="process-grid"><li><span class="process-number">01</span><h3>LINEで無料相談</h3><p>「この作業に時間がかかる」の一言から。何ができるか知りたい段階でもどうぞ。</p></li><li><span class="process-number">02</span><h3>業務をヒアリング</h3><p>作業の流れ・頻度・体制を整理し、改善できそうなポイントを見つけます。</p></li><li><span class="process-number">03</span><h3>進め方・費用をご提案</h3><p>取り組む範囲と優先順位をご提案。まず1業務だけ、小さく始めることもできます。</p></li><li><span class="process-number">04</span><h3>一緒に実装・定着</h3><p>研修やしくみの構築を進め、実際に使ってみながら、現場に合わせて改善します。</p></li></ol></div></section>
+<section class="approach" aria-labelledby="approach-title"><div class="container approach-layout"><div><p class="eyebrow">2つの支援に共通する「超伴走型」</p><h2 id="approach-title">できるまで、一緒に作る。<br>それが「超伴走型」です。</h2><p class="approach-intro">操作が分からない、業務に合わない、続かない。<br>一人で抱えず、その場で一緒に解決していく支援です。</p></div><ol class="approach-points"><li><span>01</span><div><h3>同じ画面を見ながら、一緒に操作する</h3><p>オンラインでお互いのパソコン画面を見ながら、「どこを押すか」「何を入力するか」から確認します。</p></div></li><li><span>02</span><div><h3>使ってみた後の、つまずきを見る</h3><p>継続してご依頼いただく場合は、定期的にお話を聞き、使ってみて困った点を一緒に直します。</p></div></li><li><span>03</span><div><h3>実務の目線で、しくみを設計する</h3><p>経理・記事制作・講座運営の経験をもとに、忙しい現場でも使い続けやすい方法を考えます。</p></div></li></ol></div></section>
 
-<section class="faq section-space" id="faq" aria-labelledby="faq-title"><div class="container faq-layout"><div><p class="eyebrow">05 / FAQ</p><h2 id="faq-title">ご相談の前に。</h2><p class="faq-intro">気になることは、<br>相談の中でも直接お聞きください。</p></div><div class="faq-list">
+<section class="profile section-space" id="profile" aria-labelledby="profile-title"><div class="container profile-layout"><div class="profile-intro"><p class="eyebrow">03 / 相談をお受けする人</p><h2 id="profile-title">実務のわかる人と、<br>一緒に進める。</h2><figure class="profile-photo"><img src="profile.jpg" width="480" height="484" alt="根津仁志のプロフィール写真" loading="lazy" decoding="async"><figcaption>業務改善・AI研修の相談役</figcaption></figure></div><div class="profile-content"><p class="profile-reading">ねつ ひとし</p><h3>根津 仁志</h3><p class="profile-lead">経理の現場も、発信の現場も。<br>業務を知る目線で、AI活用を考えます。</p><p class="profile-bio">元会計事務所勤務・法人の経理担当。現在はAIスクールで使い方を教えながら、企業の記事づくりやインターネットでの集客も支援しています。経理や日々の事務作業を経験してきた立場から、仕事に合うAIの使い方を一緒に考えます。</p><ul class="profile-facts"><li>AI・Webライティング講座で400名以上の受講生を指導</li><li>30件以上のアプリ・自動化システムを開発</li><li>検索から読まれる記事づくり・企業の情報発信、制作作業の効率化を支援</li></ul><div class="creator-proof"><strong>約2<span>万人</span></strong><p>YouTubeチャンネル登録者<br><span>情報発信・運用の実績</span></p></div><div class="media"><p>掲載・登壇</p><a href="https://make-a-hit.co.jp/news/25-1027/" target="_blank" rel="noopener">株式会社メイカヒット 公式サイト掲載記事① <span aria-hidden="true">↗</span></a><a href="https://make-a-hit.co.jp/news/25-0616/" target="_blank" rel="noopener">株式会社メイカヒット 公式サイト掲載記事② <span aria-hidden="true">↗</span></a><a href="https://26-0702.peatix.com/event/5047122" target="_blank" rel="noopener">セミナー登壇「Claude Codeで実演公開！SEO記事自動執筆システム」 <span aria-hidden="true">↗</span></a></div></div></div></section>
+
+<section class="process section-space" id="flow" aria-labelledby="flow-title"><div class="container"><div class="section-heading"><div><p class="eyebrow">04 / ご相談からの流れ</p><h2 id="flow-title">まずは、困っていることを<br>聞かせてください。</h2></div><p>必要な機能や、使うAIを決めていなくても大丈夫です。<br>仕事内容をお聞きし、進め方と費用をご提案します。</p></div><ol class="process-grid"><li><span class="process-number">01</span><h3>LINEで無料相談</h3><p>「手作業を減らしたい」「社員にAIを教えたい」の一言から。何ができるか知りたい段階でもどうぞ。</p></li><li><span class="process-number">02</span><h3>今の作業・学びたいことを確認</h3><p>業務効率化なら作業の流れを、研修なら参加者の経験や学びたい内容を確認します。</p></li><li><span class="process-number">03</span><h3>進め方・費用をご提案</h3><p>取り組む範囲と優先順位をご提案。1業務の自動化や、単発の研修から始めることもできます。</p></li><li><span class="process-number">04</span><h3>しくみを作る・使い方を学ぶ</h3><p>しくみの作成や研修を進めます。実際の仕事で試しながら、操作のしかたやわからない点を確認します。</p></li></ol></div></section>
+
+<section class="faq section-space" id="faq" aria-labelledby="faq-title"><div class="container faq-layout"><div><p class="eyebrow">05 / よくあるご質問</p><h2 id="faq-title">ご相談の前に。</h2><p class="faq-intro">気になることは、<br>相談の中でも直接お聞きください。</p></div><div class="faq-list">
   <details class="faq-item" name="faq" open><summary><span class="question-label">Q.</span><span class="faq-question">相談したら、契約しないといけませんか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>いいえ。無理な売り込みはしません。「自社の場合に何ができるか知りたい」だけのご相談も歓迎です。お話を聞いたうえで、依頼するかどうかをご判断ください。</p></div></details>
-  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">費用はどのくらいかかりますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>初回相談は無料です。支援内容と範囲によって費用が変わるため、ヒアリング後にご提案します。まず1業務だけ、小さく始める進め方も可能です。</p></div></details>
-  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">AIにまったく詳しくなくても大丈夫ですか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>大丈夫です。何から始めるかの整理から一緒に行います。専門用語だけで説明せず、普段の業務でどう使うかを、画面を共有しながらお伝えします。</p></div></details>
+  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">費用はどのくらいかかりますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>初回相談は無料です。作るしくみの内容や、研修の人数・内容などをお聞きしたうえで、費用をご提案します。1つの作業の改善や、1回の研修からのご依頼も可能です。</p></div></details>
+  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">AIにまったく詳しくなくても大丈夫ですか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>大丈夫です。使うAIや、楽にしたい作業が決まっていなくても構いません。「この入力に時間がかかる」「AIを試してみたい」といったお話から、何ができるか一緒に整理します。</p></div></details>
   <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">どんな規模・業種でも相談できますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>個人事業主から中小企業までご相談いただけます。これまで建設・スポーツ運営・スクール・サービス業などに関わるしくみを制作してきました。対応できる内容は、現状をお聞きして整理します。</p></div></details>
-  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">情報の取り扱いやセキュリティが心配です。</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>扱う情報や既存の環境を確認し、ツール構成と運用方法をご提案します。PC上で動く社内専用AI（ローカルLLM）の構築実績もあります。ご懸念も含めてお聞かせください。</p></div></details>
-  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">研修だけ、導入支援だけの依頼もできますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>可能です。3つの支援は、どこから始めても構いません。単発の研修だけのご依頼も歓迎です。その後の継続契約を無理にお勧めすることはありません。</p></div></details>
-  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">社員がITに不慣れで、定着するか不安です。</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>実際の業務が楽になる体験から始め、画面共有で一緒に手を動かします。非エンジニアの方への制作指導の経験を活かし、理解度に合わせて進めます。継続支援では使ってみた後のつまずきも確認します。</p></div></details>
-  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">AIを使わず、GASの業務自動化だけでも依頼できますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>はい。スプレッドシートの転記・集計、フォームの受付・自動返信、期日の通知など、GASによる業務自動化だけでも対応します。今お使いのツールと作業の流れを確認し、1業務から設計・開発・運用手順の共有までお手伝いします。</p></div></details>
-  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">オンラインや地方からでも依頼できますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>全国オンラインで対応しています。オンライン面談と画面共有を使って進めます。対面をご希望の場合はご相談ください。</p></div></details>
+  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">会社やお客様の情報を、AIに入れても大丈夫ですか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>入力してよい情報は、会社のルールや使うサービスによって異なります。お客様の情報や社外に出せない資料を、そのまま入れる前にご相談ください。扱う情報を確認し、入力する範囲や使い方を一緒に決めます。社内のパソコン上で動く専用AIを作った経験もあります。</p></div></details>
+  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">業務効率化だけ、AI研修だけの依頼もできますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>可能です。業務効率化・自動化とAI研修・人材育成は、それぞれ独立してご依頼いただけます。単発の研修だけのご依頼も歓迎です。その後の継続契約を無理にお勧めすることはありません。</p></div></details>
+  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">社員がパソコンに不慣れでも、研修についていけますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>参加する方の経験を事前にお聞きし、進め方を調整します。画面を見ながら一緒に操作し、メール文を作るなど、身近な作業から練習します。継続支援では、研修後に使ってみて困った点も確認します。</p></div></details>
+  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">今使っている表計算やメールの作業だけでも相談できますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>はい。表への入力や集計、申込への返信、期日前のお知らせなど、身近な作業だけでもご相談いただけます。今使っているソフトや仕事の流れを確認し、AIを使わない方法も含めてご提案します。</p></div></details>
+  <details class="faq-item" name="faq"><summary><span class="question-label">Q.</span><span class="faq-question">オンラインや地方からでも依頼できますか？</span><span class="disclosure-sign" aria-hidden="true">＋</span></summary><div class="faq-answer"><p>全国オンラインで対応しています。パソコンでお話ししながら、お互いの画面を見て進めます。対面をご希望の場合はご相談ください。</p></div></details>
 </div></div></section>
 
-<section class="contact section-space" id="contact" aria-labelledby="contact-title"><div class="container"><div class="contact-inner"><div class="contact-copy"><p class="eyebrow">LET’S START WITH ONE TASK</p><h2 id="contact-title">ひとつの手作業から、<br>一緒に見直しませんか。</h2><p>「うちの業務にも使える？」<br>「何から始めたらいい？」<br>その段階から、根津本人がお聞きします。</p></div><div class="contact-action"><p class="contact-label">初回相談は無料です</p><a class="button button-contact" href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">LINEで無料相談する <span aria-hidden="true">↗</span></a><p class="contact-note">「LPを見ました」と、お送りください。<br>まだ内容がまとまっていなくても大丈夫です。</p><span class="contact-assurance">全国オンライン対応 / 無理な売り込みはしません</span></div></div></div></section>
+<section class="contact section-space" id="contact" aria-labelledby="contact-title"><div class="container"><div class="contact-inner"><div class="contact-copy"><p class="eyebrow">何から始めるか、一緒に考えます</p><h2 id="contact-title">業務のことも、研修のことも。<br>まずは、お聞かせください。</h2><p>「毎日の手作業を減らしたい」<br>「社員がAIを使えるようになってほしい」<br>その段階から、根津本人がお聞きします。</p></div><div class="contact-action"><p class="contact-label">初回相談は無料です</p><a class="button button-contact" href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">LINEで無料相談する <span aria-hidden="true">↗</span></a><p class="contact-note">LINEで「相談したい」とお送りください。<br>内容がまとまっていなくても、根津本人がお聞きします。</p><span class="contact-assurance">全国オンライン対応 / 無理な売り込みはしません</span></div></div></div></section>
 </main>
-<footer class="site-footer"><div class="container footer-inner"><div class="footer-brand">根津 仁志<span>AI・DXコンサル / Webマーケター</span></div><nav class="footer-links" aria-label="フッターナビゲーション"><a href="https://sasukewebjob-ai.github.io/portfolio/" target="_blank" rel="noopener">制作実績 ↗</a><a href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">LINEで無料相談 ↗</a><a href="#top">先頭へ ↑</a></nav><p class="footer-note">実績・プロフィールは掲載時点の情報です。<span>© 2026 根津 仁志</span></p></div></footer>
-<aside class="mobile-dock" id="mobileDock" aria-label="無料相談のご案内" hidden><p>1つの業務から、<br>相談できます。</p><a href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">LINEで無料相談 <span aria-hidden="true">↗</span></a></aside>
+<footer class="site-footer"><div class="container footer-inner"><div class="footer-brand">根津 仁志<span>業務改善・AI研修の相談役</span></div><nav class="footer-links" aria-label="フッターナビゲーション"><a href="https://sasukewebjob-ai.github.io/portfolio/" target="_blank" rel="noopener">制作実績 ↗</a><a href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">LINEで無料相談 ↗</a><a href="#top">先頭へ ↑</a></nav><p class="footer-note">実績・プロフィールは掲載時点の情報です。<span>© 2026 根津 仁志</span></p></div></footer>
+<aside class="mobile-dock" id="mobileDock" aria-label="無料相談のご案内" hidden><p>業務効率化も、<br>AI研修も。</p><a href="https://lin.ee/NFymCKmH" target="_blank" rel="noopener">LINEで無料相談 <span aria-hidden="true">↗</span></a></aside>
 
 <script>
 /* FAQは標準のdetails要素。JavaScriptが無効でも内容を開けます。 */
@@ -138,12 +200,118 @@ let queued=false;
 function updateDock(){
   const mobile=window.matchMedia('(max-width: 540px)').matches;
   dock.hidden=!(mobile&&hero.getBoundingClientRect().bottom<=header.offsetHeight&&contact.getBoundingClientRect().top>window.innerHeight);
+  const travel=document.documentElement.scrollHeight-window.innerHeight;
+  const progress=travel>0?Math.min(1,Math.max(0,window.scrollY/travel)):0;
+  header.style.setProperty('--reading-progress',progress.toFixed(4));
+  header.classList.toggle('is-scrolled',window.scrollY>16);
   queued=false;
 }
 function scheduleDock(){if(!queued){queued=true;window.requestAnimationFrame(updateDock);}}
 window.addEventListener('scroll',scheduleDock,{passive:true});
 window.addEventListener('resize',scheduleDock,{passive:true});
 updateDock();
+
+/* 動きは追加機能。JSや対応APIがなくても、すべての本文と最終数値を表示。 */
+(() => {
+  const preference=window.matchMedia('(prefers-reduced-motion: reduce)');
+  const running=new Set();
+  const counters=new Map();
+  const revealed=new WeakSet();
+  const counted=new WeakSet();
+  let observer;
+  let counterFrame=0;
+
+  function settleCounters(){
+    if(counterFrame)window.cancelAnimationFrame(counterFrame);
+    counterFrame=0;
+    counters.forEach(({digits,final})=>{digits.textContent=String(final);});
+    counters.clear();
+  }
+
+  function countFrame(now){
+    counters.forEach((state,element)=>{
+      if(state.start===null)state.start=now;
+      const progress=Math.min(1,(now-state.start)/1000);
+      state.digits.textContent=String(Math.round(state.final*(1-Math.pow(1-progress,3))));
+      if(progress===1)counters.delete(element);
+    });
+    counterFrame=counters.size?window.requestAnimationFrame(countFrame):0;
+  }
+
+  function count(element){
+    if(counted.has(element))return;
+    counted.add(element);
+    const numberNode=element.firstChild;
+    if(!numberNode||numberNode.nodeType!==Node.TEXT_NODE)return;
+    const final=Number(numberNode.textContent.trim());
+    if(!Number.isFinite(final))return;
+    // 読み上げには確定値を残し、見た目の数字だけを更新する。
+    const accessible=document.createElement('span');
+    accessible.className='sr-only';
+    accessible.textContent=element.textContent;
+    const visual=document.createElement('span');
+    visual.className='counter-visual';
+    visual.setAttribute('aria-hidden','true');
+    const digits=document.createElement('b');
+    digits.className='counter-digits';
+    digits.textContent=String(final);
+    visual.append(digits);
+    while(element.childNodes.length>1)visual.append(element.childNodes[1]);
+    element.replaceChildren(accessible,visual);
+    // 桁数の変化によるレイアウトの揺れを防ぐ。
+    digits.style.minWidth=String(final).length+'ch';
+    counters.set(element,{digits,final,start:null});
+    if(!counterFrame)counterFrame=window.requestAnimationFrame(countFrame);
+  }
+
+  function enter(element,delay=0){
+    if(revealed.has(element))return;
+    revealed.add(element);
+    if(typeof element.animate!=='function')return;
+    const animation=element.animate(
+      [{transform:'translateY(22px)'},{transform:'translateY(0)'}],
+      {duration:650,delay,easing:'cubic-bezier(.22,1,.36,1)'}
+    );
+    running.add(animation);
+    animation.onfinish=animation.oncancel=()=>running.delete(animation);
+  }
+
+  function stop(){
+    observer?.disconnect();
+    running.forEach(animation=>animation.cancel());
+    running.clear();
+    settleCounters();
+    document.documentElement.classList.remove('motion-ready');
+    document.querySelectorAll('.flow-playing').forEach(flow=>flow.classList.remove('flow-playing'));
+  }
+
+  function start(){
+    if(preference.matches||!('IntersectionObserver' in window))return;
+    document.documentElement.classList.add('motion-ready');
+    observer=new IntersectionObserver(entries=>{
+      if(preference.matches)return;
+      let order=0;
+      entries.forEach(({target,isIntersecting})=>{
+        if(!isIntersecting)return;
+        if(target.matches('.proof-strip strong'))count(target);
+        else if(target.matches('.case-flow'))target.classList.add('flow-playing');
+        else enter(target,Math.min(order++*65,195));
+        observer.unobserve(target);
+      });
+    },{threshold:.12,rootMargin:'0px 0px -24px 0px'});
+    document.querySelectorAll('.hero-copy,.hero-support,.section-heading,.path-card,.service-card,.automation-grid article,.case-heading,.industry-grid article,.profile-photo,.process-grid li,.contact-inner,.proof-strip strong,.case-flow').forEach(element=>observer.observe(element));
+  }
+
+  preference.addEventListener?.('change',()=>{stop();start();});
+  document.addEventListener('visibilitychange',()=>{
+    if(document.hidden){
+      running.forEach(animation=>animation.cancel());
+      running.clear();
+      settleCounters();
+    }
+  });
+  start();
+})();
 
 </script>
 </body>
