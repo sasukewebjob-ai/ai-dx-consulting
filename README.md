@@ -3,7 +3,7 @@
 個人事業主・経営者向けに、AI研修・AI導入支援・AI内製化支援を紹介する根津仁志のLPです。名刺からの訪問者を中心に、公式LINEでの初回無料相談へつなげます。
 
 - 公開先：<https://sasukewebjob-ai.github.io/ai-dx-consulting/>
-- 相談先：<https://lin.ee/Y7OfHPe>
+- 相談先：<https://lin.ee/NFymCKmH>
 - 制作実績：<https://sasukewebjob-ai.github.io/portfolio/>
 
 ## ローカルで見る
@@ -40,7 +40,7 @@
 
 ## 更新時の注意
 
-- このLPのLINEリンクは `https://lin.ee/Y7OfHPe` です。別サイトの相談先と混同しないでください。
+- このLPのLINEリンクは `https://lin.ee/NFymCKmH` です。2026-09-10のユーザー指定で、ポートフォリオと共通の相談窓口に統一しました。
 - ふりがなは「ねつ ひとし」。主軸の表現は「超伴走型」。
 - 「開発実績30件以上」は既存の確定表記を継承。ポートフォリオへのリンクには固定件数を付けていません。
 - 数値の時間削減は試算です。実測値・保証・顧客の導入成果として表示しないでください。
